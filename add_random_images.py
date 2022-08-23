@@ -9,7 +9,7 @@ from PIL import Image
 DOC_NAME = "11th Day Together Wishes.docx"
 IMAGE_WIDTH = Inches(6.5)
 IMAGE_HEIGHT = Inches(4.88)
-DIRECTORY_AB_PATH = r'C:\Users\admin\Downloads'
+DIRECTORY_AB_PATH = r'C:\Users\Administrator\Downloads\pexels'
 RATIO = 4 / 3
 RATIO_MULTIPLICATIVE_INVERSE = 1 / RATIO
 WIDTH_STANDARD = 1280
@@ -25,6 +25,10 @@ def get_all_files():
     for file in os.listdir(dir_path):
         if file.endswith('.jpg'):
             result.append(file)
+    with open("files_name.txt", mode="w") as files_name_file:
+        for line in result:
+            files_name_file.write(line)
+            files_name_file.write("\n")
     return result
 
 
@@ -39,25 +43,24 @@ paragraphs = document.paragraphs
 # ---- FORMAT IMAGE --------------------------------- #
 def format_image(image_path, image_to_crop_name):
     # source: https://dev.to/flynestor/crop-a-picture-automatically-with-a-fixed-ratio-python-example-1j1a
-    with Image.open(image_path) as image_file:
-        image = image_file
-    width, height = image.size
-    if width / height == RATIO:
-        if width != WIDTH_STANDARD:
-            image_crop = image.resize((WIDTH_STANDARD, HEIGHT_STANDARD))
+    with Image.open(image_path) as image:
+        width, height = image.size
+        if width / height == RATIO:
+            if width != WIDTH_STANDARD:
+                image_crop = image.resize((WIDTH_STANDARD, HEIGHT_STANDARD))
+            else:
+                image_crop = image
+        elif width / height > RATIO:
+            offset = int(abs(width - RATIO * height) / 2)
+            image_crop1 = image.crop((offset, 0, width - offset, height))
+            image_crop = image_crop1.resize((WIDTH_STANDARD, HEIGHT_STANDARD))
         else:
-            image_crop = image
-    elif width / height > RATIO:
-        offset = int(abs(width - RATIO * height) / 2)
-        image_crop1 = image.crop((offset, 0, width - offset, height))
-        image_crop = image_crop1.resize((WIDTH_STANDARD, HEIGHT_STANDARD))
-    else:
-        offset = int(abs(RATIO_MULTIPLICATIVE_INVERSE * width - height) / 2)
-        image_crop1 = image.crop((0, offset, width, height - offset))
-        image_crop = image_crop1.resize((WIDTH_STANDARD, HEIGHT_STANDARD))
-    image_crop_path = DIRECTORY_AB_PATH + "\\" + "cropped" + image_to_crop_name
-    image_crop.save(image_crop_path, format="jpg")
-    return image_path
+            offset = int(abs(RATIO_MULTIPLICATIVE_INVERSE * width - height) / 2)
+            image_crop1 = image.crop((0, offset, width, height - offset))
+            image_crop = image_crop1.resize((WIDTH_STANDARD, HEIGHT_STANDARD))
+        image_crop_path = DIRECTORY_AB_PATH + "\\" + "cropped\\" + "cropped_" + image_to_crop_name
+        image_crop.save(image_crop_path, format="jpeg")
+    return image_crop_path
 
 
 # ----- SEARCH SIGN (**) AND REPLACE WITH IMAGE ----- #
@@ -66,7 +69,7 @@ for paragraph in paragraphs:
         paragraph.text = ""
         image_run = paragraph.add_run()
         image_name = random.choice(IMAGE_FILES)
-        path = r"DIRECTORY_AB_PATH + \ + image_name"
+        path = DIRECTORY_AB_PATH + "\\" + image_name
         path_formatted = format_image(path, image_name)
         image_run.add_picture(path_formatted, width=IMAGE_WIDTH, height=IMAGE_HEIGHT)
         IMAGE_FILES.remove(image_name)
