@@ -1,0 +1,4717 @@
+--Layout generated from PropagateSpeech.bat via speech_tools.lua
+return{
+	ACTIONFAIL =
+	{
+        APPRAISE =
+        {
+            NOTNOW = " ",
+        },
+        REPAIR =
+        {
+            WRONGPIECE = " ",
+        },
+        BUILD =
+        {
+            MOUNTED = " ",
+            HASPET = " ",
+			TICOON = " ",
+        },
+		SHAVE =
+		{
+			AWAKEBEEFALO = " ",
+			GENERIC = " ",
+			NOBITS = " ",
+--fallback to speech_wilson.lua             REFUSE = "only_used_by_woodie",
+            SOMEONEELSESBEEFALO = " ",
+		},
+		STORE =
+		{
+			GENERIC = " ",
+			NOTALLOWED = " ",
+			INUSE = " ",
+            NOTMASTERCHEF = " ",
+		},
+        CONSTRUCT =
+        {
+            INUSE = " ",
+            NOTALLOWED = " ",
+            EMPTY = " ",
+            MISMATCH = " ",
+        },
+		RUMMAGE =
+		{
+			GENERIC = " ",
+			INUSE = " ",
+            NOTMASTERCHEF = " ",
+		},
+		UNLOCK =
+        {
+--fallback to speech_wilson.lua         	WRONGKEY = " ",
+        },
+		USEKLAUSSACKKEY =
+        {
+        	WRONGKEY = " ",
+        	KLAUS = " ",
+			QUAGMIRE_WRONGKEY = " ",
+        },
+		ACTIVATE =
+		{
+			LOCKED_GATE = " ",
+            HOSTBUSY = " ",
+            CARNIVAL_HOST_HERE = " ",
+            NOCARNIVAL = " ",
+			EMPTY_CATCOONDEN = " ",
+			KITCOON_HIDEANDSEEK_NOT_ENOUGH_HIDERS = " ",
+			KITCOON_HIDEANDSEEK_NOT_ENOUGH_HIDING_SPOTS = " ",
+			KITCOON_HIDEANDSEEK_ONE_GAME_PER_DAY = " ",
+            MANNEQUIN_EQUIPSWAPFAILED = " ",
+		},
+		OPEN_CRAFTING =
+		{
+            PROFESSIONALCHEF = " ",
+			SHADOWMAGIC = " ",
+		},
+        COOK =
+        {
+            GENERIC = " ",
+            INUSE = " ",
+            TOOFAR = " ",
+        },
+        START_CARRAT_RACE =
+        {
+            NO_RACERS = " ",
+        },
+
+		DISMANTLE =
+		{
+			COOKING = " ",
+			INUSE = " ",
+			NOTEMPTY = " ",
+        },
+        FISH_OCEAN =
+		{
+			TOODEEP = " ",
+		},
+        OCEAN_FISHING_POND =
+		{
+			WRONGGEAR = " ",
+		},
+        --wickerbottom specific action
+--fallback to speech_wilson.lua         READ =
+--fallback to speech_wilson.lua         {
+--fallback to speech_wilson.lua             GENERIC = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOBIRDS = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOWATERNEARBY = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             TOOMANYBIRDS = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             WAYTOOMANYBIRDS = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOFIRES =       "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOSILVICULTURE = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOHORTICULTURE = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOTENTACLEGROUND = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOSLEEPTARGETS = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             TOOMANYBEES = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             NOMOONINCAVES = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua             ALREADYFULLMOON = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua         },
+
+        GIVE =
+        {
+            GENERIC = " ",
+            DEAD = " ",
+            SLEEPING = " ",
+            BUSY = " ",
+            ABIGAILHEART = " ",
+            GHOSTHEART = " ",
+            NOTGEM = " ",
+            WRONGGEM = " ",
+            NOTSTAFF = " ",
+            MUSHROOMFARM_NEEDSSHROOM = " ",
+            MUSHROOMFARM_NEEDSLOG = " ",
+            MUSHROOMFARM_NOMOONALLOWED = " ",
+            SLOTFULL = " ",
+            FOODFULL = " ",
+            NOTDISH = " ",
+            DUPLICATE = " ",
+            NOTSCULPTABLE = " ",
+--fallback to speech_wilson.lua             NOTATRIUMKEY = " ",
+            CANTSHADOWREVIVE = " ",
+            WRONGSHADOWFORM = " ",
+            NOMOON = " ",
+			PIGKINGGAME_MESSY = " ",
+			PIGKINGGAME_DANGER = " ",
+			PIGKINGGAME_TOOLATE = " ",
+			CARNIVALGAME_INVALID_ITEM = " ",
+			CARNIVALGAME_ALREADY_PLAYING = " ",
+            SPIDERNOHAT = " ",
+            TERRARIUM_REFUSE = " ",
+            TERRARIUM_COOLDOWN = " ",
+            NOTAMONKEY = " ",
+            QUEENBUSY = " ",
+        },
+        GIVETOPLAYER =
+        {
+            FULL = " ",
+            DEAD = " ",
+            SLEEPING = " ",
+            BUSY = " ",
+        },
+        GIVEALLTOPLAYER =
+        {
+            FULL = " ",
+            DEAD = " ",
+            SLEEPING = " ",
+            BUSY = " ",
+        },
+        WRITE =
+        {
+            GENERIC = " ",
+            INUSE = " ",
+        },
+        DRAW =
+        {
+            NOIMAGE = " ",
+        },
+        CHANGEIN =
+        {
+            GENERIC = " ",
+            BURNING = " ",
+            INUSE = " ",
+            NOTENOUGHHAIR = " ",
+            NOOCCUPANT = " ",
+        },
+        ATTUNE =
+        {
+            NOHEALTH = " ",
+        },
+        MOUNT =
+        {
+            TARGETINCOMBAT = " ",
+            INUSE = " ",
+			SLEEPING = " ",
+        },
+        SADDLE =
+        {
+            TARGETINCOMBAT = " ",
+        },
+        TEACH =
+        {
+            --Recipes/Teacher
+            KNOWN = " ",
+            CANTLEARN = " ",
+
+            --MapRecorder/MapExplorer
+            WRONGWORLD = " ",
+
+			--MapSpotRevealer/messagebottle
+			MESSAGEBOTTLEMANAGER_NOT_FOUND = " ",--Likely trying to read messagebottle treasure map in caves
+
+            STASH_MAP_NOT_FOUND = " ",-- Likely trying to read stash map  in world without stash
+        },
+        WRAPBUNDLE =
+        {
+            EMPTY = " ",
+        },
+        PICKUP =
+        {
+			RESTRICTION = " ",
+			INUSE = " ",
+--fallback to speech_wilson.lua             NOTMINE_SPIDER = "only_used_by_webber",
+            NOTMINE_YOTC =
+            {
+                " ",
+                " ",
+            },
+--fallback to speech_wilson.lua 			NO_HEAVY_LIFTING = "only_used_by_wanda",
+            FULL_OF_CURSES = " ",
+        },
+        SLAUGHTER =
+        {
+            TOOFAR = " ",
+        },
+        REPLATE =
+        {
+            MISMATCH = " ",
+            SAMEDISH = " ",
+        },
+        SAIL =
+        {
+        	REPAIR = " ",
+        },
+        ROW_FAIL =
+        {
+            BAD_TIMING0 = " ",
+            BAD_TIMING1 = " ",
+            BAD_TIMING2 = " ",
+        },
+        LOWER_SAIL_FAIL =
+        {
+            " ",
+            " ",
+            " ",
+        },
+        BATHBOMB =
+        {
+            GLASSED = " ",
+            ALREADY_BOMBED = " ",
+        },
+		GIVE_TACKLESKETCH =
+		{
+			DUPLICATE = " ",
+		},
+		COMPARE_WEIGHABLE =
+		{
+            FISH_TOO_SMALL = " ",
+            OVERSIZEDVEGGIES_TOO_SMALL = " ",
+		},
+        BEGIN_QUEST =
+        {
+            ONEGHOST = " ",
+        },
+		TELLSTORY =
+		{
+			GENERIC = "only_used_by_walter",
+--fallback to speech_wilson.lua 			NOT_NIGHT = "only_used_by_walter",
+--fallback to speech_wilson.lua 			NO_FIRE = "only_used_by_walter",
+		},
+        SING_FAIL =
+        {
+--fallback to speech_wilson.lua             SAMESONG = "only_used_by_wathgrithr",
+        },
+        PLANTREGISTRY_RESEARCH_FAIL =
+        {
+            GENERIC = " ",
+            FERTILIZER = " ",
+        },
+        FILL_OCEAN =
+        {
+            UNSUITABLE_FOR_PLANTS = " ",
+        },
+        POUR_WATER =
+        {
+            OUT_OF_WATER = " ",
+        },
+        POUR_WATER_GROUNDTILE =
+        {
+            OUT_OF_WATER = " ",
+        },
+        USEITEMON =
+        {
+            --GENERIC = " ",
+
+            --construction is PREFABNAME_REASON
+            BEEF_BELL_INVALID_TARGET = " ",
+            BEEF_BELL_ALREADY_USED = " ",
+            BEEF_BELL_HAS_BEEF_ALREADY = " ",
+        },
+        HITCHUP =
+        {
+            NEEDBEEF = " ",
+            NEEDBEEF_CLOSER = " ",
+            BEEF_HITCHED = " ",
+            INMOOD = " ",
+        },
+        MARK =
+        {
+            ALREADY_MARKED = " ",
+            NOT_PARTICIPANT = " ",
+        },
+        YOTB_STARTCONTEST =
+        {
+            DOESNTWORK = " ",
+            ALREADYACTIVE = " ",
+        },
+        YOTB_UNLOCKSKIN =
+        {
+            ALREADYKNOWN = " ",
+        },
+        CARNIVALGAME_FEED =
+        {
+            TOO_LATE = " ",
+        },
+        HERD_FOLLOWERS =
+        {
+            WEBBERONLY = " ",
+        },
+        BEDAZZLE =
+        {
+--fallback to speech_wilson.lua             BURNING = "only_used_by_webber",
+--fallback to speech_wilson.lua             BURNT = "only_used_by_webber",
+--fallback to speech_wilson.lua             FROZEN = "only_used_by_webber",
+--fallback to speech_wilson.lua             ALREADY_BEDAZZLED = "only_used_by_webber",
+        },
+        UPGRADE =
+        {
+--fallback to speech_wilson.lua             BEDAZZLED = "only_used_by_webber",
+        },
+		CAST_POCKETWATCH =
+		{
+--fallback to speech_wilson.lua 			GENERIC = "only_used_by_wanda",
+--fallback to speech_wilson.lua 			REVIVE_FAILED = "only_used_by_wanda",
+--fallback to speech_wilson.lua 			WARP_NO_POINTS_LEFT = "only_used_by_wanda",
+--fallback to speech_wilson.lua 			SHARD_UNAVAILABLE = "only_used_by_wanda",
+		},
+        DISMANTLE_POCKETWATCH =
+        {
+--fallback to speech_wilson.lua             ONCOOLDOWN = "only_used_by_wanda",
+        },
+
+        ENTER_GYM =
+        {
+--fallback to speech_wilson.lua             NOWEIGHT = "only_used_by_wolfang",
+--fallback to speech_wilson.lua             UNBALANCED = "only_used_by_wolfang",
+--fallback to speech_wilson.lua             ONFIRE = "only_used_by_wolfang",
+--fallback to speech_wilson.lua             SMOULDER = "only_used_by_wolfang",
+--fallback to speech_wilson.lua             HUNGRY = "only_used_by_wolfang",
+--fallback to speech_wilson.lua             FULL = "only_used_by_wolfang",
+        },
+
+        APPLYMODULE =
+        {
+            COOLDOWN = "only_used_by_wx78",
+            NOTENOUGHSLOTS = "only_used_by_wx78",
+        },
+        REMOVEMODULES =
+        {
+            NO_MODULES = "only_used_by_wx78",
+        },
+        CHARGE_FROM =
+        {
+            NOT_ENOUGH_CHARGE = "only_used_by_wx78",
+            CHARGE_FULL = "only_used_by_wx78",
+        },
+
+        HARVEST =
+        {
+            DOER_ISNT_MODULE_OWNER = " ",
+        },
+
+		CAST_SPELLBOOK =
+		{
+--fallback to speech_wilson.lua			NO_TOPHAT = "only_used_by_waxwell",
+		},
+
+		CASTAOE =
+		{
+--fallback to speech_wilson.lua			NO_MAX_SANITY = "only_used_by_waxwell",
+		},
+    },
+
+	ANNOUNCE_CANNOT_BUILD =
+	{
+		NO_INGREDIENTS = " ",
+		NO_TECH = " ",
+		NO_STATION = " ",
+	},
+
+	ACTIONFAIL_GENERIC = " ",
+	ANNOUNCE_BOAT_LEAK = " ",
+	ANNOUNCE_BOAT_SINK = " ",
+	ANNOUNCE_DIG_DISEASE_WARNING = " ", --removed
+	ANNOUNCE_PICK_DISEASE_WARNING = " ", --removed
+	ANNOUNCE_ADVENTUREFAIL = " ",
+    ANNOUNCE_MOUNT_LOWHEALTH = " ",
+
+    --waxwell and wickerbottom specific strings
+--fallback to speech_wilson.lua     ANNOUNCE_TOOMANYBIRDS = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua     ANNOUNCE_WAYTOOMANYBIRDS = "only_used_by_waxwell_and_wicker",
+--fallback to speech_wilson.lua     ANNOUNCE_NOWATERNEARBY = "only_used_by_waxwell_and_wicker",
+
+	--waxwell specific
+--fallback to speech_wilson.lua		ANNOUNCE_SHADOWLEVEL_ITEM = "only_used_by_waxwell",
+--fallback to speech_wilson.lua		ANNOUNCE_EQUIP_SHADOWLEVEL_T1 = "only_used_by_waxwell",
+--fallback to speech_wilson.lua		ANNOUNCE_EQUIP_SHADOWLEVEL_T2 = "only_used_by_waxwell",
+--fallback to speech_wilson.lua		ANNOUNCE_EQUIP_SHADOWLEVEL_T3 = "only_used_by_waxwell",
+--fallback to speech_wilson.lua		ANNOUNCE_EQUIP_SHADOWLEVEL_T4 = "only_used_by_waxwell",
+
+    --wolfgang specific
+--fallback to speech_wilson.lua     ANNOUNCE_NORMALTOMIGHTY = "only_used_by_wolfang",
+--fallback to speech_wilson.lua     ANNOUNCE_NORMALTOWIMPY = "only_used_by_wolfang",
+--fallback to speech_wilson.lua     ANNOUNCE_WIMPYTONORMAL = "only_used_by_wolfang",
+--fallback to speech_wilson.lua     ANNOUNCE_MIGHTYTONORMAL = "only_used_by_wolfang",
+    ANNOUNCE_EXITGYM = {
+--fallback to speech_wilson.lua         MIGHTY = "only_used_by_wolfang",
+--fallback to speech_wilson.lua         NORMAL = "only_used_by_wolfang",
+--fallback to speech_wilson.lua         WIMPY = "only_used_by_wolfang",
+    },
+
+	ANNOUNCE_BEES = " ",
+	ANNOUNCE_BOOMERANG = " ",
+	ANNOUNCE_CHARLIE = " ",
+	ANNOUNCE_CHARLIE_ATTACK = " ",
+--fallback to speech_wilson.lua 	ANNOUNCE_CHARLIE_MISSED = "only_used_by_winona", --winona specific
+	ANNOUNCE_COLD = " ",
+	ANNOUNCE_HOT = " ",
+	ANNOUNCE_CRAFTING_FAIL = " ",
+	ANNOUNCE_DEERCLOPS = " ",
+	ANNOUNCE_CAVEIN = " ",
+	ANNOUNCE_ANTLION_SINKHOLE =
+	{
+		" ",
+		" ",
+		" ",
+	},
+	ANNOUNCE_ANTLION_TRIBUTE =
+	{
+        " ",
+        " ",
+        " ",
+	},
+	ANNOUNCE_SACREDCHEST_YES = " ",
+	ANNOUNCE_SACREDCHEST_NO = " ",
+    ANNOUNCE_DUSK = " ",
+
+    --wx-78 specific
+--fallback to speech_wilson.lua     ANNOUNCE_CHARGE = "only_used_by_wx78",
+--fallback to speech_wilson.lua 	ANNOUNCE_DISCHARGE = "only_used_by_wx78",
+
+	ANNOUNCE_EAT =
+	{
+		GENERIC = " ",
+		PAINFUL = " ",
+		SPOILED = " ",
+		STALE = " ",
+		INVALID = " ",
+        YUCKY = " ",
+
+        --Warly specific ANNOUNCE_EAT strings
+--fallback to speech_wilson.lua 		COOKED = "only_used_by_warly",
+--fallback to speech_wilson.lua 		DRIED = "only_used_by_warly",
+--fallback to speech_wilson.lua         PREPARED = "only_used_by_warly",
+--fallback to speech_wilson.lua         RAW = "only_used_by_warly",
+--fallback to speech_wilson.lua 		SAME_OLD_1 = "only_used_by_warly",
+--fallback to speech_wilson.lua 		SAME_OLD_2 = "only_used_by_warly",
+--fallback to speech_wilson.lua 		SAME_OLD_3 = "only_used_by_warly",
+--fallback to speech_wilson.lua 		SAME_OLD_4 = "only_used_by_warly",
+--fallback to speech_wilson.lua         SAME_OLD_5 = "only_used_by_warly",
+--fallback to speech_wilson.lua 		TASTY = "only_used_by_warly",
+    },
+
+	ANNOUNCE_FOODMEMORY = "only_used_by_warly",
+
+    ANNOUNCE_ENCUMBERED =
+    {
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+    },
+    ANNOUNCE_ATRIUM_DESTABILIZING =
+    {
+		" ",
+		" ",
+		" ",
+	},
+    ANNOUNCE_RUINS_RESET = " ",
+    ANNOUNCE_SNARED = " ",
+    ANNOUNCE_SNARED_IVY = " ",
+    ANNOUNCE_REPELLED = " ",
+	ANNOUNCE_ENTER_DARK = " ",
+	ANNOUNCE_ENTER_LIGHT = " ",
+	ANNOUNCE_FREEDOM = " ",
+	ANNOUNCE_HIGHRESEARCH = " ",
+	ANNOUNCE_HOUNDS = " ",
+	ANNOUNCE_WORMS = " ",
+	ANNOUNCE_HUNGRY = " ",
+	ANNOUNCE_HUNT_BEAST_NEARBY = " ",
+	ANNOUNCE_HUNT_LOST_TRAIL = " ",
+	ANNOUNCE_HUNT_LOST_TRAIL_SPRING = " ",
+	ANNOUNCE_INV_FULL = " ",
+	ANNOUNCE_KNOCKEDOUT = " ",
+	ANNOUNCE_LOWRESEARCH = " ",
+	ANNOUNCE_MOSQUITOS = " ",
+    ANNOUNCE_NOWARDROBEONFIRE = " ",
+    ANNOUNCE_NODANGERGIFT = " ",
+    ANNOUNCE_NOMOUNTEDGIFT = " ",
+	ANNOUNCE_NODANGERSLEEP = " ",
+	ANNOUNCE_NODAYSLEEP = " ",
+	ANNOUNCE_NODAYSLEEP_CAVE = " ",
+	ANNOUNCE_NOHUNGERSLEEP = " ",
+	ANNOUNCE_NOSLEEPONFIRE = " ",
+    ANNOUNCE_NOSLEEPHASPERMANENTLIGHT = " ",
+	ANNOUNCE_NODANGERSIESTA = " ",
+	ANNOUNCE_NONIGHTSIESTA = " ",
+	ANNOUNCE_NONIGHTSIESTA_CAVE = " ",
+	ANNOUNCE_NOHUNGERSIESTA = " ",
+	ANNOUNCE_NO_TRAP = " ",
+	ANNOUNCE_PECKED = " ",
+	ANNOUNCE_QUAKE = " ",
+	ANNOUNCE_RESEARCH = " ",
+	ANNOUNCE_SHELTER = " ",
+	ANNOUNCE_THORNS = " ",
+	ANNOUNCE_BURNT = " ",
+	ANNOUNCE_TORCH_OUT = " ",
+	ANNOUNCE_THURIBLE_OUT = " ",
+	ANNOUNCE_FAN_OUT = " ",
+    ANNOUNCE_COMPASS_OUT = " ",
+	ANNOUNCE_TRAP_WENT_OFF = " ",
+	ANNOUNCE_UNIMPLEMENTED = " ",
+	ANNOUNCE_WORMHOLE = " ",
+	ANNOUNCE_TOWNPORTALTELEPORT = " ",
+	ANNOUNCE_CANFIX = " ",
+	ANNOUNCE_ACCOMPLISHMENT = " ",
+	ANNOUNCE_ACCOMPLISHMENT_DONE = " ",
+	ANNOUNCE_INSUFFICIENTFERTILIZER = " ",
+	ANNOUNCE_TOOL_SLIP = " ",
+	ANNOUNCE_LIGHTNING_DAMAGE_AVOIDED = " ",
+	ANNOUNCE_TOADESCAPING = " ",
+	ANNOUNCE_TOADESCAPED = " ",
+
+
+	ANNOUNCE_DAMP = " ",
+	ANNOUNCE_WET = " ",
+	ANNOUNCE_WETTER = " ",
+	ANNOUNCE_SOAKED = " ",
+
+	ANNOUNCE_WASHED_ASHORE = " ",
+
+    ANNOUNCE_DESPAWN = " ",
+	ANNOUNCE_BECOMEGHOST = " ",
+	ANNOUNCE_GHOSTDRAIN = " ",
+	ANNOUNCE_PETRIFED_TREES = " ",
+	ANNOUNCE_KLAUS_ENRAGE = " ",
+	ANNOUNCE_KLAUS_UNCHAINED = " ",
+	ANNOUNCE_KLAUS_CALLFORHELP = " ",
+
+	ANNOUNCE_MOONALTAR_MINE =
+	{
+		GLASS_MED = " ",
+		GLASS_LOW = " ",
+		GLASS_REVEAL = " ",
+		IDOL_MED = " ",
+		IDOL_LOW = " ",
+		IDOL_REVEAL = " ",
+		SEED_MED = " ",
+		SEED_LOW = " ",
+		SEED_REVEAL = " ",
+	},
+
+    --hallowed nights
+    ANNOUNCE_SPOOKED = " ",
+	ANNOUNCE_BRAVERY_POTION = " ",
+	ANNOUNCE_MOONPOTION_FAILED = " ",
+
+	--winter's feast
+	ANNOUNCE_EATING_NOT_FEASTING = " ",
+	ANNOUNCE_WINTERS_FEAST_BUFF = " ",
+	ANNOUNCE_IS_FEASTING = " ",
+	ANNOUNCE_WINTERS_FEAST_BUFF_OVER = " ",
+
+    --lavaarena event
+    ANNOUNCE_REVIVING_CORPSE = " ",
+    ANNOUNCE_REVIVED_OTHER_CORPSE = " ",
+    ANNOUNCE_REVIVED_FROM_CORPSE = " ",
+
+    ANNOUNCE_FLARE_SEEN = " ",
+    ANNOUNCE_MEGA_FLARE_SEEN = " ",
+    ANNOUNCE_OCEAN_SILHOUETTE_INCOMING = " ",
+
+    --willow specific
+--fallback to speech_wilson.lua 	ANNOUNCE_LIGHTFIRE =
+--fallback to speech_wilson.lua 	{
+--fallback to speech_wilson.lua 		"only_used_by_willow",
+--fallback to speech_wilson.lua     },
+
+    --winona specific
+--fallback to speech_wilson.lua     ANNOUNCE_HUNGRY_SLOWBUILD =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua 	    "only_used_by_winona",
+--fallback to speech_wilson.lua     },
+--fallback to speech_wilson.lua     ANNOUNCE_HUNGRY_FASTBUILD =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua 	    "only_used_by_winona",
+--fallback to speech_wilson.lua     },
+
+    --wormwood specific
+--fallback to speech_wilson.lua     ANNOUNCE_KILLEDPLANT =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         "only_used_by_wormwood",
+--fallback to speech_wilson.lua     },
+--fallback to speech_wilson.lua     ANNOUNCE_GROWPLANT =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         "only_used_by_wormwood",
+--fallback to speech_wilson.lua     },
+--fallback to speech_wilson.lua     ANNOUNCE_BLOOMING =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         "only_used_by_wormwood",
+--fallback to speech_wilson.lua     },
+
+    --wortox specfic
+--fallback to speech_wilson.lua     ANNOUNCE_SOUL_EMPTY =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         "only_used_by_wortox",
+--fallback to speech_wilson.lua     },
+--fallback to speech_wilson.lua     ANNOUNCE_SOUL_FEW =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         "only_used_by_wortox",
+--fallback to speech_wilson.lua     },
+--fallback to speech_wilson.lua     ANNOUNCE_SOUL_MANY =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         "only_used_by_wortox",
+--fallback to speech_wilson.lua     },
+--fallback to speech_wilson.lua     ANNOUNCE_SOUL_OVERLOAD =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         "only_used_by_wortox",
+--fallback to speech_wilson.lua     },
+
+    --walter specfic
+--fallback to speech_wilson.lua 	ANNOUNCE_SLINGHSOT_OUT_OF_AMMO =
+--fallback to speech_wilson.lua 	{
+--fallback to speech_wilson.lua 		"only_used_by_walter",
+--fallback to speech_wilson.lua 		"only_used_by_walter",
+--fallback to speech_wilson.lua 	},
+--fallback to speech_wilson.lua 	ANNOUNCE_STORYTELLING_ABORT_FIREWENTOUT =
+--fallback to speech_wilson.lua 	{
+--fallback to speech_wilson.lua         "only_used_by_walter",
+--fallback to speech_wilson.lua 	},
+--fallback to speech_wilson.lua 	ANNOUNCE_STORYTELLING_ABORT_NOT_NIGHT =
+--fallback to speech_wilson.lua 	{
+--fallback to speech_wilson.lua         "only_used_by_walter",
+--fallback to speech_wilson.lua 	},
+
+    -- wx specific
+    ANNOUNCE_WX_SCANNER_NEW_FOUND = "only_used_by_wx78",
+--fallback to speech_wilson.lua     ANNOUNCE_WX_SCANNER_FOUND_NO_DATA = "only_used_by_wx78",
+
+    --quagmire event
+    QUAGMIRE_ANNOUNCE_NOTRECIPE = " ",
+    QUAGMIRE_ANNOUNCE_MEALBURNT = " ",
+    QUAGMIRE_ANNOUNCE_LOSE = " ",
+    QUAGMIRE_ANNOUNCE_WIN = " ",
+
+--fallback to speech_wilson.lua     ANNOUNCE_ROYALTY =
+--fallback to speech_wilson.lua     {
+--fallback to speech_wilson.lua         " ",
+--fallback to speech_wilson.lua         " ",
+--fallback to speech_wilson.lua         " ",
+--fallback to speech_wilson.lua     },
+
+    ANNOUNCE_ATTACH_BUFF_ELECTRICATTACK    = " ",
+    ANNOUNCE_ATTACH_BUFF_ATTACK            = " ",
+    ANNOUNCE_ATTACH_BUFF_PLAYERABSORPTION  = " ",
+    ANNOUNCE_ATTACH_BUFF_WORKEFFECTIVENESS = " ",
+    ANNOUNCE_ATTACH_BUFF_MOISTUREIMMUNITY  = " ",
+    ANNOUNCE_ATTACH_BUFF_SLEEPRESISTANCE   = " ",
+
+    ANNOUNCE_DETACH_BUFF_ELECTRICATTACK    = " ",
+    ANNOUNCE_DETACH_BUFF_ATTACK            = " ",
+    ANNOUNCE_DETACH_BUFF_PLAYERABSORPTION  = " ",
+    ANNOUNCE_DETACH_BUFF_WORKEFFECTIVENESS = " ",
+    ANNOUNCE_DETACH_BUFF_MOISTUREIMMUNITY  = " ",
+    ANNOUNCE_DETACH_BUFF_SLEEPRESISTANCE   = " ",
+
+	ANNOUNCE_OCEANFISHING_LINESNAP = " ",
+	ANNOUNCE_OCEANFISHING_LINETOOLOOSE = " ",
+	ANNOUNCE_OCEANFISHING_GOTAWAY = " ",
+	ANNOUNCE_OCEANFISHING_BADCAST = " ",
+	ANNOUNCE_OCEANFISHING_IDLE_QUOTE =
+	{
+		" ",
+		" ",
+		" ",
+		" ",
+	},
+
+	ANNOUNCE_WEIGHT = " ",
+	ANNOUNCE_WEIGHT_HEAVY  = " ",
+
+	ANNOUNCE_WINCH_CLAW_MISS = " ",
+	ANNOUNCE_WINCH_CLAW_NO_ITEM = " ",
+
+    --Wurt announce strings
+--fallback to speech_wilson.lua     ANNOUNCE_KINGCREATED = "only_used_by_wurt",
+--fallback to speech_wilson.lua     ANNOUNCE_KINGDESTROYED = "only_used_by_wurt",
+--fallback to speech_wilson.lua     ANNOUNCE_CANTBUILDHERE_THRONE = "only_used_by_wurt",
+--fallback to speech_wilson.lua     ANNOUNCE_CANTBUILDHERE_HOUSE = "only_used_by_wurt",
+--fallback to speech_wilson.lua     ANNOUNCE_CANTBUILDHERE_WATCHTOWER = "only_used_by_wurt",
+    ANNOUNCE_READ_BOOK =
+    {
+--fallback to speech_wilson.lua         BOOK_SLEEP = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_BIRDS = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_TENTACLES =  "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_BRIMSTONE = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_GARDENING = "only_used_by_wurt",
+--fallback to speech_wilson.lua 		BOOK_SILVICULTURE = "only_used_by_wurt",
+--fallback to speech_wilson.lua 		BOOK_HORTICULTURE = "only_used_by_wurt",
+
+--fallback to speech_wilson.lua         BOOK_FISH = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_FIRE = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_WEB = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_TEMPERATURE = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_LIGHT = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_RAIN = "only_used_by_wurt",
+
+--fallback to speech_wilson.lua         BOOK_HORTICULTURE_UPGRADED = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_RESEARCH_STATION = "only_used_by_wurt",
+--fallback to speech_wilson.lua         BOOK_LIGHT_UPGRADED = "only_used_by_wurt",
+    },
+    ANNOUNCE_WEAK_RAT = " ",
+
+    ANNOUNCE_CARRAT_START_RACE = " ",
+
+    ANNOUNCE_CARRAT_ERROR_WRONG_WAY = {
+        " ",
+        " ",
+    },
+    ANNOUNCE_CARRAT_ERROR_FELL_ASLEEP = " ",
+    ANNOUNCE_CARRAT_ERROR_WALKING = " ",
+    ANNOUNCE_CARRAT_ERROR_STUNNED = " ",
+
+    ANNOUNCE_GHOST_QUEST = " ",
+    ANNOUNCE_GHOST_HINT = " ",
+    ANNOUNCE_GHOST_TOY_NEAR = {
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+    },
+	ANNOUNCE_SISTURN_FULL = " ",
+    ANNOUNCE_ABIGAIL_DEATH = " ",
+    ANNOUNCE_ABIGAIL_RETRIEVE = " ",
+	ANNOUNCE_ABIGAIL_LOW_HEALTH = " ",
+    ANNOUNCE_ABIGAIL_SUMMON =
+	{
+		LEVEL1 = " ",
+		LEVEL2 = " ",
+		LEVEL3 = " ",
+	},
+
+    ANNOUNCE_GHOSTLYBOND_LEVELUP =
+	{
+		LEVEL2 = " ",
+		LEVEL3 = " ",
+	},
+
+--fallback to speech_wilson.lua     ANNOUNCE_NOINSPIRATION = "only_used_by_wathgrithr",
+--fallback to speech_wilson.lua     ANNOUNCE_BATTLESONG_INSTANT_TAUNT_BUFF = "only_used_by_wathgrithr",
+--fallback to speech_wilson.lua     ANNOUNCE_BATTLESONG_INSTANT_PANIC_BUFF = "only_used_by_wathgrithr",
+
+--fallback to speech_wilson.lua     ANNOUNCE_WANDA_YOUNGTONORMAL = "only_used_by_wanda",
+--fallback to speech_wilson.lua     ANNOUNCE_WANDA_NORMALTOOLD = "only_used_by_wanda",
+--fallback to speech_wilson.lua     ANNOUNCE_WANDA_OLDTONORMAL = "only_used_by_wanda",
+--fallback to speech_wilson.lua     ANNOUNCE_WANDA_NORMALTOYOUNG = "only_used_by_wanda",
+
+	ANNOUNCE_POCKETWATCH_PORTAL = " ",
+
+--fallback to speech_wilson.lua 	ANNOUNCE_POCKETWATCH_MARK = "only_used_by_wanda",
+--fallback to speech_wilson.lua 	ANNOUNCE_POCKETWATCH_RECALL = "only_used_by_wanda",
+--fallback to speech_wilson.lua 	ANNOUNCE_POCKETWATCH_OPEN_PORTAL = "only_used_by_wanda",
+--fallback to speech_wilson.lua 	ANNOUNCE_POCKETWATCH_OPEN_PORTAL_DIFFERENTSHARD = "only_used_by_wanda",
+
+    ANNOUNCE_ARCHIVE_NEW_KNOWLEDGE = " ",
+    ANNOUNCE_ARCHIVE_OLD_KNOWLEDGE = " ",
+    ANNOUNCE_ARCHIVE_NO_POWER = " ",
+
+    ANNOUNCE_PLANT_RESEARCHED =
+    {
+        " ",
+    },
+
+    ANNOUNCE_PLANT_RANDOMSEED = " ",
+
+    ANNOUNCE_FERTILIZER_RESEARCHED = " ",
+
+	ANNOUNCE_FIRENETTLE_TOXIN =
+	{
+		" ",
+		" ",
+	},
+	ANNOUNCE_FIRENETTLE_TOXIN_DONE = " ",
+
+	ANNOUNCE_TALK_TO_PLANTS =
+	{
+        " ",
+        " ",
+		" ",
+        " ",
+        " ",
+	},
+
+	ANNOUNCE_KITCOON_HIDEANDSEEK_START = " ",
+	ANNOUNCE_KITCOON_HIDEANDSEEK_JOIN = " ",
+	ANNOUNCE_KITCOON_HIDANDSEEK_FOUND =
+	{
+		" ",
+		" ",
+		" ",
+		" ",
+	},
+	ANNOUNCE_KITCOON_HIDANDSEEK_FOUND_ONE_MORE = " ",
+	ANNOUNCE_KITCOON_HIDANDSEEK_FOUND_LAST_ONE = " ",
+	ANNOUNCE_KITCOON_HIDANDSEEK_FOUND_LAST_ONE_TEAM = " ",
+	ANNOUNCE_KITCOON_HIDANDSEEK_TIME_ALMOST_UP = " ",
+	ANNOUNCE_KITCOON_HIDANDSEEK_LOSEGAME = " ",
+	ANNOUNCE_KITCOON_HIDANDSEEK_TOOFAR = " ",
+	ANNOUNCE_KITCOON_HIDANDSEEK_TOOFAR_RETURN = " ",
+	ANNOUNCE_KITCOON_FOUND_IN_THE_WILD = " ",
+
+	ANNOUNCE_TICOON_START_TRACKING	= " ",
+	ANNOUNCE_TICOON_NOTHING_TO_TRACK = " ",
+	ANNOUNCE_TICOON_WAITING_FOR_LEADER = " ",
+	ANNOUNCE_TICOON_GET_LEADER_ATTENTION = " ",
+	ANNOUNCE_TICOON_NEAR_KITCOON = " ",
+	ANNOUNCE_TICOON_LOST_KITCOON = " ",
+	ANNOUNCE_TICOON_ABANDONED = " ",
+	ANNOUNCE_TICOON_DEAD = " ",
+
+    -- YOTB
+    ANNOUNCE_CALL_BEEF = " ",
+    ANNOUNCE_CANTBUILDHERE_YOTB_POST = " ",
+    ANNOUNCE_YOTB_LEARN_NEW_PATTERN =  " ",
+
+    -- AE4AE
+    ANNOUNCE_EYEOFTERROR_ARRIVE = " ",
+    ANNOUNCE_EYEOFTERROR_FLYBACK = " ",
+    ANNOUNCE_EYEOFTERROR_FLYAWAY = " ",
+
+    -- PIRATES
+    ANNOUNCE_CANT_ESCAPE_CURSE = " ",
+    ANNOUNCE_MONKEY_CURSE_1 = " ",
+    ANNOUNCE_MONKEY_CURSE_CHANGE = " ",
+    ANNOUNCE_MONKEY_CURSE_CHANGEBACK = " ",
+
+    ANNOUNCE_PIRATES_ARRIVE = " ",
+
+--fallback to speech_wilson.lua     ANNOUNCE_BOOK_MOON_DAYTIME = "only_used_by_waxwell_and_wicker",
+
+    ANNOUNCE_OFF_SCRIPT = " ",
+
+	BATTLECRY =
+	{
+		GENERIC = " ",
+		PIG = " ",
+		PREY = " ",
+		SPIDER = " ",
+		SPIDER_WARRIOR = " ",
+		DEER = " ",
+	},
+	COMBAT_QUIT =
+	{
+		GENERIC = " ",
+		PIG = " ",
+		PREY = " ",
+		SPIDER = " ",
+		SPIDER_WARRIOR = " ",
+	},
+
+	DESCRIBE =
+	{
+		MULTIPLAYER_PORTAL = " ",
+        MULTIPLAYER_PORTAL_MOONROCK = " ",
+        MOONROCKIDOL = " ",
+        CONSTRUCTION_PLANS = " ",
+
+        ANTLION =
+        {
+            GENERIC = " ",
+            VERYHAPPY = " ",
+            UNHAPPY = " ",
+        },
+        ANTLIONTRINKET = " ",
+        SANDSPIKE = " ",
+        SANDBLOCK = " ",
+        GLASSSPIKE = " ",
+        GLASSBLOCK = " ",
+        ABIGAIL_FLOWER =
+        {
+            GENERIC =" ",
+			LEVEL1 = " ",
+			LEVEL2 = " ",
+			LEVEL3 = " ",
+
+			-- deprecated
+            LONG = " ",
+            MEDIUM = " ",
+            SOON = " ",
+            HAUNTED_POCKET = " ",
+            HAUNTED_GROUND = " ",
+        },
+
+        BALLOONS_EMPTY = " ",
+        BALLOON = " ",
+		BALLOONPARTY = " ",
+		BALLOONSPEED =
+        {
+            DEFLATED = " ",
+            GENERIC = " ",
+        },
+		BALLOONVEST = " ",
+		BALLOONHAT = " ",
+
+        BERNIE_INACTIVE =
+        {
+            BROKEN = " ",
+            GENERIC = " ",
+        },
+
+        BERNIE_ACTIVE = " ",
+        BERNIE_BIG = " ",
+
+		BOOKSTATION =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+		},
+        BOOK_BIRDS = " ",
+        BOOK_TENTACLES = " ",
+        BOOK_GARDENING = " ",
+		BOOK_SILVICULTURE = " ",
+		BOOK_HORTICULTURE = " ",
+        BOOK_SLEEP = " ",
+        BOOK_BRIMSTONE = " ",
+
+        BOOK_FISH = " ",
+        BOOK_FIRE = " ",
+        BOOK_WEB = " ",
+        BOOK_TEMPERATURE = " ",
+        BOOK_LIGHT = " ",
+        BOOK_RAIN = " ",
+        BOOK_MOON = " ",
+        BOOK_BEES = " ",
+        
+        BOOK_HORTICULTURE_UPGRADED = " ",
+        BOOK_RESEARCH_STATION = " ",
+        BOOK_LIGHT_UPGRADED = " ",
+
+        FIREPEN = " ",
+
+        PLAYER =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WILSON =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WOLFGANG =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WAXWELL =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WX78 =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WILLOW =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WENDY =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WOODIE =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            BEAVER = " ",
+            BEAVERGHOST = " ",
+            MOOSE = " ",
+            MOOSEGHOST = " ",
+            GOOSE = " ",
+            GOOSEGHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WICKERBOTTOM =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WES =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WEBBER =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WATHGRITHR =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WINONA =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WORTOX =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WORMWOOD =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+        WARLY =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+
+        WURT =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+
+        WALTER =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+
+        WANDA =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+
+        WONKEY =
+        {
+            GENERIC = " ",
+            ATTACKER = " ",
+            MURDERER = " ",
+            REVIVER = " ",
+            GHOST = " ",
+            FIRESTARTER = " ",
+        },
+
+--fallback to speech_wilson.lua         MIGRATION_PORTAL =
+--fallback to speech_wilson.lua         {
+--fallback to speech_wilson.lua         --    GENERIC = " ",
+--fallback to speech_wilson.lua         --    OPEN = " ",
+--fallback to speech_wilson.lua         --    FULL = " ",
+--fallback to speech_wilson.lua         },
+        GLOMMER =
+        {
+            GENERIC = " ",
+            SLEEPING = " ",
+        },
+        GLOMMERFLOWER =
+        {
+            GENERIC = " ",
+            DEAD = " ",
+        },
+        GLOMMERWINGS = " ",
+        GLOMMERFUEL = " ",
+        BELL = " ",
+        STATUEGLOMMER =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+        },
+
+        LAVA_POND_ROCK = " ",
+
+		WEBBERSKULL = " ",
+		WORMLIGHT = " ",
+		WORMLIGHT_LESSER = " ",
+		WORM =
+		{
+		    PLANT = " ",
+		    DIRT = " ",
+		    WORM = " ",
+		},
+        WORMLIGHT_PLANT = " ",
+		MOLE =
+		{
+			HELD = " ",
+			UNDERGROUND = " ",
+			ABOVEGROUND = " ",
+		},
+		MOLEHILL = " ",
+		MOLEHAT = " ",
+
+		EEL = " ",
+		EEL_COOKED = " ",
+		UNAGI = " ",
+		EYETURRET = " ",
+		EYETURRET_ITEM = " ",
+		MINOTAURHORN = " ",
+		MINOTAURCHEST = " ",
+		THULECITE_PIECES = " ",
+		POND_ALGAE = " ",
+		GREENSTAFF = " ",
+		GIFT = " ",
+        GIFTWRAP = " ",
+		POTTEDFERN = " ",
+        SUCCULENT_POTTED = " ",
+		SUCCULENT_PLANT = " ",
+		SUCCULENT_PICKED = " ",
+		SENTRYWARD = " ",
+        TOWNPORTAL =
+        {
+			GENERIC = " ",
+			ACTIVE = " ",
+		},
+        TOWNPORTALTALISMAN =
+        {
+			GENERIC = " ",
+			ACTIVE = " ",
+		},
+        WETPAPER = " ",
+        WETPOUCH = " ",
+        MOONROCK_PIECES = " ",
+        MOONBASE =
+        {
+            GENERIC = " ",
+            BROKEN = " ",
+            STAFFED = " ",
+            WRONGSTAFF = " ",
+            MOONSTAFF = " ",
+        },
+        MOONDIAL =
+        {
+			GENERIC = " ",
+			NIGHT_NEW = " ",
+			NIGHT_WAX = " ",
+			NIGHT_FULL = " ",
+			NIGHT_WANE = " ",
+			CAVE = " ",
+--fallback to speech_wilson.lua 			WEREBEAVER = "only_used_by_woodie", --woodie specific
+			GLASSED = " ",
+        },
+		THULECITE = " ",
+		ARMORRUINS = " ",
+		ARMORSKELETON = " ",
+		SKELETONHAT = " ",
+		RUINS_BAT = " ",
+		RUINSHAT = " ",
+		NIGHTMARE_TIMEPIECE =
+		{
+            CALM = " ",
+            WARN = " ",
+            WAXING = " ",
+            STEADY = " ",
+            WANING = " ",
+            DAWN = " ",
+            NOMAGIC = " ",
+		},
+		BISHOP_NIGHTMARE = " ",
+		ROOK_NIGHTMARE = " ",
+		KNIGHT_NIGHTMARE = " ",
+		MINOTAUR = " ",
+		SPIDER_DROPPER = " ",
+		NIGHTMARELIGHT = " ",
+		NIGHTSTICK = " ",
+		GREENGEM = " ",
+		MULTITOOL_AXE_PICKAXE = " ",
+		ORANGESTAFF = " ",
+		YELLOWAMULET = " ",
+		GREENAMULET = " ",
+		SLURPERPELT = " ",
+
+		SLURPER = " ",
+		SLURPER_PELT = " ",
+		ARMORSLURPER = " ",
+		ORANGEAMULET = " ",
+		YELLOWSTAFF = " ",
+		YELLOWGEM = " ",
+		ORANGEGEM = " ",
+        OPALSTAFF = " ",
+        OPALPRECIOUSGEM = " ",
+        TELEBASE =
+		{
+			VALID = " ",
+			GEMS = " ",
+		},
+		GEMSOCKET =
+		{
+			VALID = " ",
+			GEMS = " ",
+		},
+		STAFFLIGHT = " ",
+        STAFFCOLDLIGHT = " ",
+
+        ANCIENT_ALTAR = " ",
+
+        ANCIENT_ALTAR_BROKEN = " ",
+
+        ANCIENT_STATUE = " ",
+
+        LICHEN = " ",
+		CUTLICHEN = " ",
+
+		CAVE_BANANA = " ",
+		CAVE_BANANA_COOKED = " ",
+		CAVE_BANANA_TREE = " ",
+		ROCKY = " ",
+
+		COMPASS =
+		{
+			GENERIC=" ",
+			N = " ",
+			S = " ",
+			E = " ",
+			W = " ",
+			NE = " ",
+			SE = " ",
+			NW = " ",
+			SW = " ",
+		},
+
+        HOUNDSTOOTH = " ",
+        ARMORSNURTLESHELL = " ",
+        BAT = " ",
+        BATBAT = " ",
+        BATWING = " ",
+        BATWING_COOKED = " ",
+        BATCAVE = " ",
+        BEDROLL_FURRY = " ",
+        BUNNYMAN = " ",
+        FLOWER_CAVE = " ",
+        GUANO = " ",
+        LANTERN = " ",
+        LIGHTBULB = " ",
+        MANRABBIT_TAIL = " ",
+        MUSHROOMHAT = " ",
+        MUSHROOM_LIGHT2 =
+        {
+            ON = " ",
+            OFF = " ",
+            BURNT = " ",
+        },
+        MUSHROOM_LIGHT =
+        {
+            ON = " ",
+            OFF = " ",
+            BURNT = " ",
+        },
+        SLEEPBOMB = " ",
+        MUSHROOMBOMB = " ",
+        SHROOM_SKIN = " ",
+        TOADSTOOL_CAP =
+        {
+            EMPTY = " ",
+            INGROUND = " ",
+            GENERIC = " ",
+        },
+        TOADSTOOL =
+        {
+            GENERIC = " ",
+            RAGE = " ",
+        },
+        MUSHROOMSPROUT =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        MUSHTREE_TALL =
+        {
+            GENERIC = " ",
+            BLOOM = " ",
+        },
+        MUSHTREE_MEDIUM =
+        {
+            GENERIC = " ",
+            BLOOM = " ",
+        },
+        MUSHTREE_SMALL =
+        {
+            GENERIC = " ",
+            BLOOM = " ",
+        },
+        MUSHTREE_TALL_WEBBED = " ",
+        SPORE_TALL =
+        {
+            GENERIC = " ",
+            HELD = " ",
+        },
+        SPORE_MEDIUM =
+        {
+            GENERIC = " ",
+            HELD = " ",
+        },
+        SPORE_SMALL =
+        {
+            GENERIC = " ",
+            HELD = " ",
+        },
+        RABBITHOUSE =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        SLURTLE = " ",
+        SLURTLE_SHELLPIECES = " ",
+        SLURTLEHAT = " ",
+        SLURTLEHOLE = " ",
+        SLURTLESLIME = " ",
+        SNURTLE = " ",
+        SPIDER_HIDER = " ",
+        SPIDER_SPITTER = " ",
+        SPIDERHOLE = " ",
+        SPIDERHOLE_ROCK = " ",
+        STALAGMITE = " ",
+        STALAGMITE_TALL = " ",
+
+        TURF_CARPETFLOOR = " ",
+        TURF_CHECKERFLOOR = " ",
+        TURF_DIRT = " ",
+        TURF_FOREST = " ",
+        TURF_GRASS = " ",
+        TURF_MARSH = " ",
+        TURF_METEOR = " ",
+        TURF_PEBBLEBEACH = " ",
+        TURF_ROAD = " ",
+        TURF_ROCKY = " ",
+        TURF_SAVANNA = " ",
+        TURF_WOODFLOOR = " ",
+
+		TURF_CAVE=" ",
+		TURF_FUNGUS=" ",
+		TURF_FUNGUS_MOON = " ",
+		TURF_ARCHIVE = " ",
+		TURF_SINKHOLE=" ",
+		TURF_UNDERROCK=" ",
+		TURF_MUD=" ",
+
+		TURF_DECIDUOUS = " ",
+		TURF_SANDY = " ",
+		TURF_BADLANDS = " ",
+		TURF_DESERTDIRT = " ",
+		TURF_FUNGUS_GREEN = " ",
+		TURF_FUNGUS_RED = " ",
+		TURF_DRAGONFLY = " ",
+
+        TURF_SHELLBEACH = " ",
+
+		TURF_RUINSBRICK = " ",
+		TURF_RUINSBRICK_GLOW = " ",
+		TURF_RUINSTILES = " ",
+		TURF_RUINSTILES_GLOW = " ",
+		TURF_RUINSTRIM = " ",
+		TURF_RUINSTRIM_GLOW = " ",
+
+        TURF_MONKEY_GROUND = " ",
+
+        TURF_CARPETFLOOR2 = " ",
+        TURF_MOSAIC_GREY = " ",
+        TURF_MOSAIC_RED = " ",
+        TURF_MOSAIC_BLUE = " ",
+
+		POWCAKE = " ",
+        CAVE_ENTRANCE = " ",
+        CAVE_ENTRANCE_RUINS = " ",
+
+       	CAVE_ENTRANCE_OPEN =
+        {
+            GENERIC = " ",
+            OPEN = " ",
+            FULL = " ",
+        },
+        CAVE_EXIT =
+        {
+            GENERIC = " ",
+            OPEN = " ",
+            FULL = " ",
+        },
+
+		MAXWELLPHONOGRAPH = " ",--single player
+		BOOMERANG = " ",
+		PIGGUARD = " ",
+		ABIGAIL =
+		{
+            LEVEL1 =
+            {
+                " ",
+                " ",
+            },
+            LEVEL2 =
+            {
+                " ",
+                " ",
+            },
+            LEVEL3 =
+            {
+                " ",
+                " ",
+            },
+		},
+		ADVENTURE_PORTAL = " ",
+		AMULET = " ",
+		ANIMAL_TRACK = " ",
+		ARMORGRASS = " ",
+		ARMORMARBLE = " ",
+		ARMORWOOD = " ",
+		ARMOR_SANITY = " ",
+		ASH =
+		{
+			GENERIC = " ",
+			REMAINS_GLOMMERFLOWER = " ",
+			REMAINS_EYE_BONE = " ",
+			REMAINS_THINGIE = " ",
+		},
+		AXE = " ",
+		BABYBEEFALO =
+		{
+			GENERIC = " ",
+		    SLEEPING = " ",
+        },
+        BUNDLE = " ",
+        BUNDLEWRAP = " ",
+		BACKPACK = " ",
+		BACONEGGS = " ",
+		BANDAGE = " ",
+		BASALT = " ", --removed
+		BEARDHAIR = " ",
+		BEARGER = " ",
+		BEARGERVEST = " ",
+		ICEPACK = " ",
+		BEARGER_FUR = " ",
+		BEDROLL_STRAW = " ",
+		BEEQUEEN = " ",
+		BEEQUEENHIVE =
+		{
+			GENERIC = " ",
+			GROWING = " ",
+		},
+        BEEQUEENHIVEGROWN = " ",
+        BEEGUARD = " ",
+        HIVEHAT = " ",
+        MINISIGN =
+        {
+            GENERIC = " ",
+            UNDRAWN = " ",
+        },
+        MINISIGN_ITEM = " ",
+		BEE =
+		{
+			GENERIC = " ",
+			HELD = " ",
+		},
+		BEEBOX =
+		{
+			READY = " ",
+			FULLHONEY = " ",
+			GENERIC = " ",
+			NOHONEY = " ",
+			SOMEHONEY = " ",
+			BURNT = " ",
+		},
+		MUSHROOM_FARM =
+		{
+			STUFFED = " ",
+			LOTS = " ",
+			SOME = " ",
+			EMPTY = " ",
+			ROTTEN = " ",
+			BURNT = " ",
+			SNOWCOVERED = " ",
+		},
+		BEEFALO =
+		{
+			FOLLOWER = " ",
+			GENERIC = " ",
+			NAKED = " ",
+			SLEEPING = " ",
+            --Domesticated states:
+            DOMESTICATED = " ",
+            ORNERY = " ",
+            RIDER = " ",
+            PUDGY = " ",
+            MYPARTNER = " ",
+		},
+
+		BEEFALOHAT = " ",
+		BEEFALOWOOL = " ",
+		BEEHAT = " ",
+        BEESWAX = " ",
+		BEEHIVE = " ",
+		BEEMINE = " ",
+		BEEMINE_MAXWELL = " ",--removed
+		BERRIES = " ",
+		BERRIES_COOKED = " ",
+        BERRIES_JUICY = " ",
+        BERRIES_JUICY_COOKED = " ",
+		BERRYBUSH =
+		{
+			BARREN = " ",
+			WITHERED = " ",
+			GENERIC = " ",
+			PICKED = " ",
+			DISEASED = " ",--removed
+			DISEASING = " ",--removed
+			BURNING = " ",
+		},
+		BERRYBUSH_JUICY =
+		{
+			BARREN = " ",
+			WITHERED = " ",
+			GENERIC = " ",
+			PICKED = " ",
+			DISEASED = " ",--removed
+			DISEASING = " ",--removed
+			BURNING = " ",
+		},
+		BIGFOOT = " ",--removed
+		BIRDCAGE =
+		{
+			GENERIC = " ",
+			OCCUPIED = " ",
+			SLEEPING = " ",
+			HUNGRY = " ",
+			STARVING = " ",
+			DEAD = " ",
+			SKELETON = " ",
+		},
+		BIRDTRAP = " ",
+		CAVE_BANANA_BURNT = " ",
+		BIRD_EGG = " ",
+		BIRD_EGG_COOKED = " ",
+		BISHOP = " ",
+		BLOWDART_FIRE = " ",
+		BLOWDART_SLEEP = " ",
+		BLOWDART_PIPE = " ",
+		BLOWDART_YELLOW = " ",
+		BLUEAMULET = " ",
+		BLUEGEM = " ",
+		BLUEPRINT =
+		{
+            COMMON = " ",
+            RARE = " ",
+        },
+        SKETCH = " ",
+		COOKINGRECIPECARD = 
+		{
+			GENERIC = " ",
+		},
+		BLUE_CAP = " ",
+		BLUE_CAP_COOKED = " ",
+		BLUE_MUSHROOM =
+		{
+			GENERIC = " ",
+			INGROUND = " ",
+			PICKED = " ",
+		},
+		BOARDS = " ",
+		BONESHARD = " ",
+		BONESTEW = " ",
+		BUGNET = " ",
+		BUSHHAT = " ",
+		BUTTER = " ",
+		BUTTERFLY =
+		{
+			GENERIC = " ",
+			HELD = " ",
+		},
+		BUTTERFLYMUFFIN = " ",
+		BUTTERFLYWINGS = " ",
+		BUZZARD = " ",
+
+		SHADOWDIGGER = " ",
+        SHADOWDANCER = " ",
+
+		CACTUS =
+		{
+			GENERIC = " ",
+			PICKED = " ",
+		},
+		CACTUS_MEAT_COOKED = " ",
+		CACTUS_MEAT = " ",
+		CACTUS_FLOWER = " ",
+
+		COLDFIRE =
+		{
+			EMBERS = " ",
+			GENERIC = " ",
+			HIGH = " ",
+			LOW = " ",
+			NORMAL = " ",
+			OUT = " ",
+		},
+		CAMPFIRE =
+		{
+			EMBERS = " ",
+			GENERIC = " ",
+			HIGH = " ",
+			LOW = " ",
+			NORMAL = " ",
+			OUT = " ",
+		},
+		CANE = " ",
+		CATCOON = " ",
+		CATCOONDEN =
+		{
+			GENERIC = " ",
+			EMPTY = " ",
+		},
+		CATCOONHAT = " ",
+		COONTAIL = " ",
+		CARROT = " ",
+		CARROT_COOKED = " ",
+		CARROT_PLANTED = " ",
+		CARROT_SEEDS = " ",
+		CARTOGRAPHYDESK =
+		{
+			GENERIC = " ",
+			BURNING = " ",
+			BURNT = " ",
+		},
+		WATERMELON_SEEDS = " ",
+		CAVE_FERN = " ",
+		CHARCOAL = " ",
+        CHESSPIECE_PAWN = " ",
+        CHESSPIECE_ROOK =
+        {
+            GENERIC = " ",
+            STRUGGLE = " ",
+        },
+        CHESSPIECE_KNIGHT =
+        {
+            GENERIC = " ",
+            STRUGGLE = " ",
+        },
+        CHESSPIECE_BISHOP =
+        {
+            GENERIC = " ",
+            STRUGGLE = " ",
+        },
+        CHESSPIECE_MUSE = " ",
+        CHESSPIECE_FORMAL = " ",
+        CHESSPIECE_HORNUCOPIA = " ",
+        CHESSPIECE_PIPE = " ",
+        CHESSPIECE_DEERCLOPS = " ",
+        CHESSPIECE_BEARGER = " ",
+        CHESSPIECE_MOOSEGOOSE =
+        {
+            " ",
+        },
+        CHESSPIECE_DRAGONFLY = " ",
+		CHESSPIECE_MINOTAUR = " ",
+        CHESSPIECE_BUTTERFLY = " ",
+        CHESSPIECE_ANCHOR = " ",
+        CHESSPIECE_MOON = " ",
+        CHESSPIECE_CARRAT = " ",
+        CHESSPIECE_MALBATROSS = " ",
+        CHESSPIECE_CRABKING = " ",
+        CHESSPIECE_TOADSTOOL = " ",
+        CHESSPIECE_STALKER = " ",
+        CHESSPIECE_KLAUS = " ",
+        CHESSPIECE_BEEQUEEN = " ",
+        CHESSPIECE_ANTLION = " ",
+        CHESSPIECE_BEEFALO = " ",
+		CHESSPIECE_KITCOON = " ",
+		CHESSPIECE_CATCOON = " ",
+        CHESSPIECE_GUARDIANPHASE3 = " ",
+        CHESSPIECE_EYEOFTERROR = " ",
+        CHESSPIECE_TWINSOFTERROR = " ",
+
+        CHESSJUNK1 = " ",
+        CHESSJUNK2 = " ",
+        CHESSJUNK3 = " ",
+		CHESTER = " ",
+		CHESTER_EYEBONE =
+		{
+			GENERIC = " ",
+			WAITING = " ",
+		},
+		COOKEDMANDRAKE = " ",
+		COOKEDMEAT = " ",
+		COOKEDMONSTERMEAT = " ",
+		COOKEDSMALLMEAT = " ",
+		COOKPOT =
+		{
+			COOKING_LONG = " ",
+			COOKING_SHORT = " ",
+			DONE = " ",
+			EMPTY = " ",
+			BURNT = " ",
+		},
+		CORN = " ",
+		CORN_COOKED = " ",
+		CORN_SEEDS = " ",
+        CANARY =
+		{
+			GENERIC = " ",
+			HELD = " ",
+		},
+        CANARY_POISONED = " ",
+
+		CRITTERLAB = " ",
+        CRITTER_GLOMLING = " ",
+        CRITTER_DRAGONLING = " ",
+		CRITTER_LAMB = " ",
+        CRITTER_PUPPY = " ",
+        CRITTER_KITTEN = " ",
+        CRITTER_PERDLING = " ",
+		CRITTER_LUNARMOTHLING = " ",
+
+		CROW =
+		{
+			GENERIC = " ",
+			HELD = " ",
+		},
+		CUTGRASS = " ",
+		CUTREEDS = " ",
+		CUTSTONE = " ",
+		DEADLYFEAST = " ", --unimplemented
+		DEER =
+		{
+			GENERIC = " ",
+			ANTLER = " ",
+		},
+        DEER_ANTLER = " ",
+        DEER_GEMMED = " ",
+		DEERCLOPS = " ",
+		DEERCLOPS_EYEBALL = " ",
+		EYEBRELLAHAT =	" ",
+		DEPLETED_GRASS =
+		{
+			GENERIC = " ",
+		},
+        GOGGLESHAT = " ",
+        DESERTHAT = " ",
+        ANTLIONHAT = " ",
+--fallback to speech_wilson.lua 		DEVTOOL = " ",
+--fallback to speech_wilson.lua 		DEVTOOL_NODEV = " ",
+		DIRTPILE = " ",
+		DIVININGROD =
+		{
+			COLD = " ", --singleplayer
+			GENERIC = " ", --singleplayer
+			HOT = " ", --singleplayer
+			WARM = " ", --singleplayer
+			WARMER = " ", --singleplayer
+		},
+		DIVININGRODBASE =
+		{
+			GENERIC = " ", --singleplayer
+			READY = " ", --singleplayer
+			UNLOCKED = " ", --singleplayer
+		},
+		DIVININGRODSTART = " ", --singleplayer
+		DRAGONFLY = " ",
+		ARMORDRAGONFLY = " ",
+		DRAGON_SCALES = " ",
+		DRAGONFLYCHEST = " ",
+		DRAGONFLYFURNACE =
+		{
+			HAMMERED = " ",
+			GENERIC = " ", --no gems
+			NORMAL = " ", --one gem
+			HIGH = " ", --two gems
+		},
+
+        HUTCH = " ",
+        HUTCH_FISHBOWL =
+        {
+            GENERIC = " ",
+            WAITING = " ",
+        },
+		LAVASPIT =
+		{
+			HOT = " ",
+			COOL = " ",
+		},
+		LAVA_POND = " ",
+		LAVAE = " ",
+		LAVAE_COCOON = " ",
+		LAVAE_PET =
+		{
+			STARVING = " ",
+			HUNGRY = " ",
+			CONTENT = " ",
+			GENERIC = " ",
+		},
+		LAVAE_EGG =
+		{
+			GENERIC = " ",
+		},
+		LAVAE_EGG_CRACKED =
+		{
+			COLD = " ",
+			COMFY = " ",
+		},
+		LAVAE_TOOTH = " ",
+
+		DRAGONFRUIT = " ",
+		DRAGONFRUIT_COOKED = " ",
+		DRAGONFRUIT_SEEDS = " ",
+		DRAGONPIE = " ",
+		DRUMSTICK = " ",
+		DRUMSTICK_COOKED = " ",
+		DUG_BERRYBUSH = " ",
+		DUG_BERRYBUSH_JUICY = " ",
+		DUG_GRASS = " ",
+		DUG_MARSH_BUSH = " ",
+		DUG_SAPLING = " ",
+		DURIAN = " ",
+		DURIAN_COOKED = " ",
+		DURIAN_SEEDS = " ",
+		EARMUFFSHAT = " ",
+		EGGPLANT = " ",
+		EGGPLANT_COOKED = " ",
+		EGGPLANT_SEEDS = " ",
+
+		ENDTABLE =
+		{
+			BURNT = " ",
+			GENERIC = " ",
+			EMPTY = " ",
+			WILTED = " ",
+			FRESHLIGHT = " ",
+			OLDLIGHT = " ", -- will be wilted soon, light radius will be very small at this point
+		},
+		DECIDUOUSTREE =
+		{
+			BURNING = " ",
+			BURNT = " ",
+			CHOPPED = " ",
+			POISON = " ",
+			GENERIC = " ",
+		},
+		ACORN = " ",
+        ACORN_SAPLING = " ",
+		ACORN_COOKED = " ",
+		BIRCHNUTDRAKE = " ",
+		EVERGREEN =
+		{
+			BURNING = " ",
+			BURNT = " ",
+			CHOPPED = " ",
+			GENERIC = " ",
+		},
+		EVERGREEN_SPARSE =
+		{
+			BURNING = " ",
+			BURNT = " ",
+			CHOPPED = " ",
+			GENERIC = " ",
+		},
+		TWIGGYTREE =
+		{
+			BURNING = " ",
+			BURNT = " ",
+			CHOPPED = " ",
+			GENERIC = " ",
+			DISEASED = " ", --unimplemented
+		},
+		TWIGGY_NUT_SAPLING = " ",
+        TWIGGY_OLD = " ",
+		TWIGGY_NUT = " ",
+		EYEPLANT = " ",
+		INSPECTSELF = " ",
+		FARMPLOT =
+		{
+			GENERIC = " ",
+			GROWING = " ",
+			NEEDSFERTILIZER = " ",
+			BURNT = " ",
+		},
+		FEATHERHAT = " ",
+		FEATHER_CROW = " ",
+		FEATHER_ROBIN = " ",
+		FEATHER_ROBIN_WINTER = " ",
+		FEATHER_CANARY = " ",
+		FEATHERPENCIL = " ",
+        COOKBOOK = " ",
+		FEM_PUPPET = " ", --single player
+		FIREFLIES =
+		{
+			GENERIC = " ",
+			HELD = " ",
+		},
+		FIREHOUND = " ",
+		FIREPIT =
+		{
+			EMBERS = " ",
+			GENERIC = " ",
+			HIGH = " ",
+			LOW = " ",
+			NORMAL = " ",
+			OUT = " ",
+		},
+		COLDFIREPIT =
+		{
+			EMBERS = " ",
+			GENERIC = " ",
+			HIGH = " ",
+			LOW = " ",
+			NORMAL = " ",
+			OUT = " ",
+		},
+		FIRESTAFF = " ",
+		FIRESUPPRESSOR =
+		{
+			ON = " ",
+			OFF = " ",
+			LOWFUEL = " ",
+		},
+
+		FISH = " ",
+		FISHINGROD = " ",
+		FISHSTICKS = " ",
+		FISHTACOS = " ",
+		FISH_COOKED = " ",
+		FLINT = " ",
+		FLOWER =
+		{
+            GENERIC = " ",
+            ROSE = " ",
+        },
+        FLOWER_WITHERED = " ",
+		FLOWERHAT = " ",
+		FLOWER_EVIL = " ",
+		FOLIAGE = " ",
+		FOOTBALLHAT = " ",
+        FOSSIL_PIECE = " ",
+        FOSSIL_STALKER =
+        {
+			GENERIC = " ",
+			FUNNY = " ",
+			COMPLETE = " ",
+        },
+        STALKER = " ",
+        STALKER_ATRIUM = " ",
+        STALKER_MINION = " ",
+        THURIBLE = " ",
+        ATRIUM_OVERGROWTH = " ",
+		FROG =
+		{
+			DEAD = " ",
+			GENERIC = " ",
+			SLEEPING = " ",
+		},
+		FROGGLEBUNWICH = " ",
+		FROGLEGS = " ",
+		FROGLEGS_COOKED = " ",
+		FRUITMEDLEY = " ",
+		FURTUFT = " ",
+		GEARS = " ",
+		GHOST = " ",
+		GOLDENAXE = " ",
+		GOLDENPICKAXE = " ",
+		GOLDENPITCHFORK = " ",
+		GOLDENSHOVEL = " ",
+		GOLDNUGGET = " ",
+		GRASS =
+		{
+			BARREN = " ",
+			WITHERED = " ",
+			BURNING = " ",
+			GENERIC = " ",
+			PICKED = " ",
+			DISEASED = " ", --unimplemented
+			DISEASING = " ", --unimplemented
+		},
+		GRASSGEKKO =
+		{
+			GENERIC = " ",
+			DISEASED = " ", --unimplemented
+		},
+		GREEN_CAP = " ",
+		GREEN_CAP_COOKED = " ",
+		GREEN_MUSHROOM =
+		{
+			GENERIC = " ",
+			INGROUND = " ",
+			PICKED = " ",
+		},
+		GUNPOWDER = " ",
+		HAMBAT = " ",
+		HAMMER = " ",
+		HEALINGSALVE = " ",
+		HEATROCK =
+		{
+			FROZEN = " ",
+			COLD = " ",
+			GENERIC = " ",
+			WARM = " ",
+			HOT = " ",
+		},
+		HOME = " ",
+		HOMESIGN =
+		{
+			GENERIC = " ",
+            UNWRITTEN = " ",
+			BURNT = " ",
+		},
+		ARROWSIGN_POST =
+		{
+			GENERIC = " ",
+            UNWRITTEN = " ",
+			BURNT = " ",
+		},
+		ARROWSIGN_PANEL =
+		{
+			GENERIC = " ",
+            UNWRITTEN = " ",
+			BURNT = " ",
+		},
+		HONEY = " ",
+		HONEYCOMB = " ",
+		HONEYHAM = " ",
+		HONEYNUGGETS = " ",
+		HORN = " ",
+		HOUND = " ",
+		HOUNDCORPSE =
+		{
+			GENERIC = " ",
+			BURNING = " ",
+			REVIVING = " ",
+		},
+		HOUNDBONE = " ",
+		HOUNDMOUND = " ",
+		ICEBOX = " ",
+		ICEHAT = " ",
+		ICEHOUND = " ",
+		INSANITYROCK =
+		{
+			ACTIVE = " ",
+			INACTIVE = " ",
+		},
+		JAMMYPRESERVES = " ",
+
+		KABOBS = " ",
+		KILLERBEE =
+		{
+			GENERIC = " ",
+			HELD = " ",
+		},
+		KNIGHT = " ",
+		KOALEFANT_SUMMER = " ",
+		KOALEFANT_WINTER = " ",
+		KRAMPUS = " ",
+		KRAMPUS_SACK = " ",
+		LEIF = " ",
+		LEIF_SPARSE = " ",
+		LIGHTER  = " ",
+		LIGHTNING_ROD =
+		{
+			CHARGED = " ",
+			GENERIC = " ",
+		},
+		LIGHTNINGGOAT =
+		{
+			GENERIC = " ",
+			CHARGED = " ",
+		},
+		LIGHTNINGGOATHORN = " ",
+		GOATMILK = " ",
+		LITTLE_WALRUS = " ",
+		LIVINGLOG = " ",
+		LOG =
+		{
+			BURNING = " ",
+			GENERIC = " ",
+		},
+		LUCY = " ",
+		LUREPLANT = " ",
+		LUREPLANTBULB = " ",
+		MALE_PUPPET = " ", --single player
+
+		MANDRAKE_ACTIVE = " ",
+		MANDRAKE_PLANTED = " ",
+		MANDRAKE = " ",
+
+        MANDRAKESOUP = " ",
+        MANDRAKE_COOKED = " ",
+        MAPSCROLL = " ",
+        MARBLE = " ",
+        MARBLEBEAN = " ",
+        MARBLEBEAN_SAPLING = " ",
+        MARBLESHRUB = " ",
+        MARBLEPILLAR = " ",
+        MARBLETREE = " ",
+        MARSH_BUSH =
+        {
+			BURNT = " ",
+            BURNING = " ",
+            GENERIC = " ",
+            PICKED = " ",
+        },
+        BURNT_MARSH_BUSH = " ",
+        MARSH_PLANT = " ",
+        MARSH_TREE =
+        {
+            BURNING = " ",
+            BURNT = " ",
+            CHOPPED = " ",
+            GENERIC = " ",
+        },
+        MAXWELL = " ",--single player
+        MAXWELLHEAD = " ",--removed
+        MAXWELLLIGHT = " ",--single player
+        MAXWELLLOCK = " ",--single player
+        MAXWELLTHRONE = " ",--single player
+        MEAT = " ",
+        MEATBALLS = " ",
+        MEATRACK =
+        {
+            DONE = " ",
+            DRYING = " ",
+            DRYINGINRAIN = " ",
+            GENERIC = " ",
+            BURNT = " ",
+            DONE_NOTMEAT = " ",
+            DRYING_NOTMEAT = " ",
+            DRYINGINRAIN_NOTMEAT = " ",
+        },
+        MEAT_DRIED = " ",
+        MERM = " ",
+        MERMHEAD =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        MERMHOUSE =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        MINERHAT = " ",
+        MONKEY = " ",
+        MONKEYBARREL = " ",
+        MONSTERLASAGNA = " ",
+        FLOWERSALAD = " ",
+        ICECREAM = " ",
+        WATERMELONICLE = " ",
+        TRAILMIX = " ",
+        HOTCHILI = " ",
+        GUACAMOLE = " ",
+        MONSTERMEAT = " ",
+        MONSTERMEAT_DRIED = " ",
+        MOOSE = " ",
+        MOOSE_NESTING_GROUND = " ",
+        MOOSEEGG = " ",
+        MOSSLING = " ",
+        FEATHERFAN = " ",
+        MINIFAN = " ",
+        GOOSE_FEATHER = " ",
+        STAFF_TORNADO = " ",
+        MOSQUITO =
+        {
+            GENERIC = " ",
+            HELD = " ",
+        },
+        MOSQUITOSACK = " ",
+        MOUND =
+        {
+            DUG = " ",
+            GENERIC = " ",
+        },
+        NIGHTLIGHT = " ",
+        NIGHTMAREFUEL = " ",
+        NIGHTSWORD = " ",
+        NITRE = " ",
+        ONEMANBAND = " ",
+        OASISLAKE =
+		{
+			GENERIC = " ",
+			EMPTY = " ",
+		},
+        PANDORASCHEST = " ",
+        PANFLUTE = " ",
+        PAPYRUS = " ",
+        WAXPAPER = " ",
+        PENGUIN = " ",
+        PERD = " ",
+        PEROGIES = " ",
+        PETALS = " ",
+        PETALS_EVIL = " ",
+        PHLEGM = " ",
+        PICKAXE = " ",
+        PIGGYBACK = " ",
+        PIGHEAD =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        PIGHOUSE =
+        {
+            FULL = " ",
+            GENERIC = " ",
+            LIGHTSOUT = " ",
+            BURNT = " ",
+        },
+        PIGKING = " ",
+        PIGMAN =
+        {
+            DEAD = " ",
+            FOLLOWER = " ",
+            GENERIC = " ",
+            GUARD = " ",
+            WEREPIG = " ",
+        },
+        PIGSKIN = " ",
+        PIGTENT = " ",
+        PIGTORCH = " ",
+        PINECONE = " ",
+        PINECONE_SAPLING = " ",
+        LUMPY_SAPLING = " ",
+        PITCHFORK = " ",
+        PLANTMEAT = " ",
+        PLANTMEAT_COOKED = " ",
+        PLANT_NORMAL =
+        {
+            GENERIC = " ",
+            GROWING = " ",
+            READY = " ",
+            WITHERED = " ",
+        },
+        POMEGRANATE = " ",
+        POMEGRANATE_COOKED = " ",
+        POMEGRANATE_SEEDS = " ",
+        POND = " ",
+        POOP = " ",
+        FERTILIZER = " ",
+        PUMPKIN = " ",
+        PUMPKINCOOKIE = " ",
+        PUMPKIN_COOKED = " ",
+        PUMPKIN_LANTERN = " ",
+        PUMPKIN_SEEDS = " ",
+        PURPLEAMULET = " ",
+        PURPLEGEM = " ",
+        RABBIT =
+        {
+            GENERIC = " ",
+            HELD = " ",
+        },
+        RABBITHOLE =
+        {
+            GENERIC = " ",
+            SPRING = " ",
+        },
+        RAINOMETER =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        RAINCOAT = " ",
+        RAINHAT = " ",
+        RATATOUILLE = " ",
+        RAZOR = " ",
+        REDGEM = " ",
+        RED_CAP = " ",
+        RED_CAP_COOKED = " ",
+        RED_MUSHROOM =
+        {
+            GENERIC = " ",
+            INGROUND = " ",
+            PICKED = " ",
+        },
+        REEDS =
+        {
+            BURNING = " ",
+            GENERIC = " ",
+            PICKED = " ",
+        },
+        RELIC = " ",
+        RUINS_RUBBLE = " ",
+        RUBBLE = " ",
+        RESEARCHLAB =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        RESEARCHLAB2 =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        RESEARCHLAB3 =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        RESEARCHLAB4 =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        RESURRECTIONSTATUE =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        RESURRECTIONSTONE = " ",
+        ROBIN =
+        {
+            GENERIC = " ",
+            HELD = " ",
+        },
+        ROBIN_WINTER =
+        {
+            GENERIC = " ",
+            HELD = " ",
+        },
+        ROBOT_PUPPET = " ", --single player
+        ROCK_LIGHT =
+        {
+            GENERIC = " ",--removed
+            OUT = " ",--removed
+            LOW = " ",--removed
+            NORMAL = " ",--removed
+        },
+        CAVEIN_BOULDER =
+        {
+            GENERIC = " ",
+            RAISED = " ",
+        },
+        ROCK = " ",
+        PETRIFIED_TREE = " ",
+        ROCK_PETRIFIED_TREE = " ",
+        ROCK_PETRIFIED_TREE_OLD = " ",
+        ROCK_ICE =
+        {
+            GENERIC = " ",
+            MELTED = " ",
+        },
+        ROCK_ICE_MELTED = " ",
+        ICE = " ",
+        ROCKS = " ",
+        ROOK = " ",
+        ROPE = " ",
+        ROTTENEGG = " ",
+        ROYAL_JELLY = " ",
+        JELLYBEAN = " ",
+        SADDLE_BASIC = " ",
+        SADDLE_RACE = " ",
+        SADDLE_WAR = " ",
+        SADDLEHORN = " ",
+        SALTLICK = " ",
+        BRUSH = " ",
+		SANITYROCK =
+		{
+			ACTIVE = " ",
+			INACTIVE = " ",
+		},
+		SAPLING =
+		{
+			BURNING = " ",
+			WITHERED = " ",
+			GENERIC = " ",
+			PICKED = " ",
+			DISEASED = " ", --removed
+			DISEASING = " ", --removed
+		},
+   		SCARECROW =
+   		{
+			GENERIC = " ",
+			BURNING = " ",
+			BURNT = " ",
+   		},
+   		SCULPTINGTABLE=
+   		{
+			EMPTY = " ",
+			BLOCK = " ",
+			SCULPTURE = " ",
+			BURNT = " ",
+   		},
+        SCULPTURE_KNIGHTHEAD = " ",
+		SCULPTURE_KNIGHTBODY =
+		{
+			COVERED = " ",
+			UNCOVERED = " ",
+			FINISHED = " ",
+			READY = " ",
+		},
+        SCULPTURE_BISHOPHEAD = " ",
+		SCULPTURE_BISHOPBODY =
+		{
+			COVERED = " ",
+			UNCOVERED = " ",
+			FINISHED = " ",
+			READY = " ",
+		},
+        SCULPTURE_ROOKNOSE = " ",
+		SCULPTURE_ROOKBODY =
+		{
+			COVERED = " ",
+			UNCOVERED = " ",
+			FINISHED = " ",
+			READY = " ",
+		},
+        GARGOYLE_HOUND = " ",
+        GARGOYLE_WEREPIG = " ",
+		SEEDS = " ",
+		SEEDS_COOKED = " ",
+		SEWING_KIT = " ",
+		SEWING_TAPE = " ",
+		SHOVEL = " ",
+		SILK = " ",
+		SKELETON = " ",
+		SCORCHED_SKELETON = " ",
+		SKULLCHEST = " ", --removed
+		SMALLBIRD =
+		{
+			GENERIC = " ",
+			HUNGRY = " ",
+			STARVING = " ",
+			SLEEPING = " ",
+		},
+		SMALLMEAT = " ",
+		SMALLMEAT_DRIED = " ",
+		SPAT = " ",
+		SPEAR = " ",
+		SPEAR_WATHGRITHR = " ",
+		WATHGRITHRHAT = " ",
+		SPIDER =
+		{
+			DEAD = " ",
+			GENERIC = " ",
+			SLEEPING = " ",
+		},
+		SPIDERDEN = " ",
+		SPIDEREGGSACK = " ",
+		SPIDERGLAND = " ",
+		SPIDERHAT = " ",
+		SPIDERQUEEN = " ",
+		SPIDER_WARRIOR =
+		{
+			DEAD = " ",
+			GENERIC = " ",
+			SLEEPING = " ",
+		},
+		SPOILED_FOOD = " ",
+        STAGEHAND =
+        {
+			AWAKE = " ",
+			HIDING = " ",
+        },
+        STATUE_MARBLE =
+        {
+            GENERIC = " ",
+            TYPE1 = " ",
+            TYPE2 = " ",
+            TYPE3 = " ", --bird bath type statue
+        },
+		STATUEHARP = " ",
+		STATUEMAXWELL = " ",
+		STEELWOOL = " ",
+		STINGER = " ",
+		STRAWHAT = " ",
+		STUFFEDEGGPLANT = " ",
+		SWEATERVEST = " ",
+		REFLECTIVEVEST = " ",
+		HAWAIIANSHIRT = " ",
+		TAFFY = " ",
+		TALLBIRD = " ",
+		TALLBIRDEGG = " ",
+		TALLBIRDEGG_COOKED = " ",
+		TALLBIRDEGG_CRACKED =
+		{
+			COLD = " ",
+			GENERIC = " ",
+			HOT = " ",
+			LONG = " ",
+			SHORT = " ",
+		},
+		TALLBIRDNEST =
+		{
+			GENERIC = " ",
+			PICKED = " ",
+		},
+		TEENBIRD =
+		{
+			GENERIC = " ",
+			HUNGRY = " ",
+			STARVING = " ",
+			SLEEPING = " ",
+		},
+		TELEPORTATO_BASE =
+		{
+			ACTIVE = " ", --single player
+			GENERIC = " ", --single player
+			LOCKED = " ", --single player
+			PARTIAL = " ", --single player
+		},
+		TELEPORTATO_BOX = " ", --single player
+		TELEPORTATO_CRANK = " ", --single player
+		TELEPORTATO_POTATO = " ", --single player
+		TELEPORTATO_RING = " ", --single player
+		TELESTAFF = " ",
+		TENT =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+		},
+		SIESTAHUT =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+		},
+		TENTACLE = " ",
+		TENTACLESPIKE = " ",
+		TENTACLESPOTS = " ",
+		TENTACLE_PILLAR = " ",
+        TENTACLE_PILLAR_HOLE = " ",
+		TENTACLE_PILLAR_ARM = " ",
+		TENTACLE_GARDEN = " ",
+		TOPHAT = " ",
+		TORCH = " ",
+		TRANSISTOR = " ",
+		TRAP = " ",
+		TRAP_TEETH = " ",
+		TRAP_TEETH_MAXWELL = " ", --single player
+		TREASURECHEST =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+		},
+		TREASURECHEST_TRAP = " ",
+		SACRED_CHEST =
+		{
+			GENERIC = " ",
+			LOCKED = " ",
+		},
+		TREECLUMP = " ", --removed
+
+		TRINKET_1 = " ", --Melted Marbles
+		TRINKET_2 = " ", --Fake Kazoo
+		TRINKET_3 = " ", --Gord's Knot
+		TRINKET_4 = " ", --Gnome
+		TRINKET_5 = " ", --Toy Rocketship
+		TRINKET_6 = " ", --Frazzled Wires
+		TRINKET_7 = " ", --Ball and Cup
+		TRINKET_8 = " ", --Rubber Bung
+		TRINKET_9 = " ", --Mismatched Buttons
+		TRINKET_10 = " ", --Dentures
+		TRINKET_11 = " ", --Lying Robot
+		TRINKET_12 = " ", --Dessicated Tentacle
+		TRINKET_13 = " ", --Gnomette
+		TRINKET_14 = " ", --Leaky Teacup
+		TRINKET_15 = " ", --Pawn
+		TRINKET_16 = " ", --Pawn
+		TRINKET_17 = " ", --Bent Spork
+		TRINKET_18 = " ", --Trojan Horse
+		TRINKET_19 = " ", --Unbalanced Top
+		TRINKET_20 = " ", --Backscratcher
+		TRINKET_21 = " ", --Egg Beater
+		TRINKET_22 = " ", --Frayed Yarn
+		TRINKET_23 = " ", --Shoehorn
+		TRINKET_24 = " ", --Lucky Cat Jar
+		TRINKET_25 = " ", --Air Unfreshener
+		TRINKET_26 = " ", --Potato Cup
+		TRINKET_27 = " ", --Coat Hanger
+		TRINKET_28 = " ", --Rook
+        TRINKET_29 = " ", --Rook
+        TRINKET_30 = " ", --Knight
+        TRINKET_31 = " ", --Knight
+        TRINKET_32 = " ", --Cubic Zirconia Ball
+        TRINKET_33 = " ", --Spider Ring
+        TRINKET_34 = " ", --Monkey Paw
+        TRINKET_35 = " ", --Empty Elixir
+        TRINKET_36 = " ", --Faux fangs
+        TRINKET_37 = " ", --Broken Stake
+        TRINKET_38 = " ", -- Binoculars Griftlands trinket
+        TRINKET_39 = " ", -- Lone Glove Griftlands trinket
+        TRINKET_40 = " ", -- Snail Scale Griftlands trinket
+        TRINKET_41 = " ", -- Goop Canister Hot Lava trinket
+        TRINKET_42 = " ", -- Toy Cobra Hot Lava trinket
+        TRINKET_43= " ", -- Crocodile Toy Hot Lava trinket
+        TRINKET_44 = " ", -- Broken Terrarium ONI trinket
+        TRINKET_45 = " ", -- Odd Radio ONI trinket
+        TRINKET_46 = " ", -- Hairdryer ONI trinket
+
+        -- The numbers align with the trinket numbers above.
+        LOST_TOY_1  = " ",
+        LOST_TOY_2  = " ",
+        LOST_TOY_7  = " ",
+        LOST_TOY_10 = " ",
+        LOST_TOY_11 = " ",
+        LOST_TOY_14 = " ",
+        LOST_TOY_18 = " ",
+        LOST_TOY_19 = " ",
+        LOST_TOY_42 = " ",
+        LOST_TOY_43 = " ",
+
+        HALLOWEENCANDY_1 = " ",
+        HALLOWEENCANDY_2 = " ",
+        HALLOWEENCANDY_3 = " ",
+        HALLOWEENCANDY_4 = " ",
+        HALLOWEENCANDY_5 = " ",
+        HALLOWEENCANDY_6 = " ",
+        HALLOWEENCANDY_7 = " ",
+        HALLOWEENCANDY_8 = " ",
+        HALLOWEENCANDY_9 = " ",
+        HALLOWEENCANDY_10 = " ",
+        HALLOWEENCANDY_11 = " ",
+        HALLOWEENCANDY_12 = " ", --ONI meal lice candy
+        HALLOWEENCANDY_13 = " ", --Griftlands themed candy
+        HALLOWEENCANDY_14 = " ", --Hot Lava pepper candy
+        CANDYBAG = " ",
+
+		HALLOWEEN_ORNAMENT_1 = " ",
+		HALLOWEEN_ORNAMENT_2 = " ",
+		HALLOWEEN_ORNAMENT_3 = " ",
+		HALLOWEEN_ORNAMENT_4 = " ",
+		HALLOWEEN_ORNAMENT_5 = " ",
+		HALLOWEEN_ORNAMENT_6 = " ",
+
+		HALLOWEENPOTION_DRINKS_WEAK = " ",
+		HALLOWEENPOTION_DRINKS_POTENT = " ",
+        HALLOWEENPOTION_BRAVERY = " ",
+		HALLOWEENPOTION_MOON = " ",
+		HALLOWEENPOTION_FIRE_FX = " ",
+		MADSCIENCE_LAB = " ",
+		LIVINGTREE_ROOT = " ",
+		LIVINGTREE_SAPLING = " ",
+
+        DRAGONHEADHAT = " ",
+        DRAGONBODYHAT = " ",
+        DRAGONTAILHAT = " ",
+        PERDSHRINE =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+            BURNT = " ",
+        },
+        REDLANTERN = " ",
+        LUCKY_GOLDNUGGET = " ",
+        FIRECRACKERS = " ",
+        PERDFAN = " ",
+        REDPOUCH = " ",
+        WARGSHRINE =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+--fallback to speech_wilson.lua             BURNING = " ", --for willow to override
+            BURNT = " ",
+        },
+        CLAYWARG =
+        {
+        	GENERIC = " ",
+        	STATUE = " ",
+        },
+        CLAYHOUND =
+        {
+        	GENERIC = " ",
+        	STATUE = " ",
+        },
+        HOUNDWHISTLE = " ",
+        CHESSPIECE_CLAYHOUND = " ",
+        CHESSPIECE_CLAYWARG = " ",
+
+		PIGSHRINE =
+		{
+            GENERIC = " ",
+            EMPTY = " ",
+            BURNT = " ",
+		},
+		PIG_TOKEN = " ",
+		PIG_COIN = " ",
+		YOTP_FOOD1 = " ",
+		YOTP_FOOD2 = " ",
+		YOTP_FOOD3 = " ",
+
+		PIGELITE1 = " ", --BLUE
+		PIGELITE2 = " ", --RED
+		PIGELITE3 = " ", --WHITE
+		PIGELITE4 = " ", --GREEN
+
+		PIGELITEFIGHTER1 = " ", --BLUE
+		PIGELITEFIGHTER2 = " ", --RED
+		PIGELITEFIGHTER3 = " ", --WHITE
+		PIGELITEFIGHTER4 = " ", --GREEN
+
+		CARRAT_GHOSTRACER = " ",
+
+        YOTC_CARRAT_RACE_START = " ",
+        YOTC_CARRAT_RACE_CHECKPOINT = " ",
+        YOTC_CARRAT_RACE_FINISH =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+            I_WON = " ",
+            SOMEONE_ELSE_WON = " ",
+        },
+
+		YOTC_CARRAT_RACE_START_ITEM = " ",
+        YOTC_CARRAT_RACE_CHECKPOINT_ITEM = " ",
+		YOTC_CARRAT_RACE_FINISH_ITEM = " ",
+
+		YOTC_SEEDPACKET = " ",
+		YOTC_SEEDPACKET_RARE = " ",
+
+		MINIBOATLANTERN = " ",
+
+        YOTC_CARRATSHRINE =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+            BURNT = " ",
+        },
+
+        YOTC_CARRAT_GYM_DIRECTION =
+        {
+            GENERIC = " ",
+            RAT = " ",
+            BURNT = " ",
+        },
+        YOTC_CARRAT_GYM_SPEED =
+        {
+            GENERIC = " ",
+            RAT = " ",
+            BURNT = " ",
+        },
+        YOTC_CARRAT_GYM_REACTION =
+        {
+            GENERIC = " ",
+            RAT = " ",
+            BURNT = " ",
+        },
+        YOTC_CARRAT_GYM_STAMINA =
+        {
+            GENERIC = " ",
+            RAT = " ",
+            BURNT = " ",
+        },
+
+        YOTC_CARRAT_GYM_DIRECTION_ITEM = " ",
+        YOTC_CARRAT_GYM_SPEED_ITEM = " ",
+        YOTC_CARRAT_GYM_STAMINA_ITEM = " ",
+        YOTC_CARRAT_GYM_REACTION_ITEM = " ",
+
+        YOTC_CARRAT_SCALE_ITEM = " ",
+        YOTC_CARRAT_SCALE =
+        {
+            GENERIC = " ",
+            CARRAT = " ",
+            CARRAT_GOOD = " ",
+            BURNT = " ",
+        },
+
+        YOTB_BEEFALOSHRINE =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+            BURNT = " ",
+        },
+
+        BEEFALO_GROOMER =
+        {
+            GENERIC = " ",
+            OCCUPIED = " ",
+            BURNT = " ",
+        },
+        BEEFALO_GROOMER_ITEM = " ",
+
+		BISHOP_CHARGE_HIT = " ",
+		TRUNKVEST_SUMMER = " ",
+		TRUNKVEST_WINTER = " ",
+		TRUNK_COOKED = " ",
+		TRUNK_SUMMER = " ",
+		TRUNK_WINTER = " ",
+		TUMBLEWEED = " ",
+		TURKEYDINNER = " ",
+		TWIGS = " ",
+		UMBRELLA = " ",
+		GRASS_UMBRELLA = " ",
+		UNIMPLEMENTED = " ",
+		WAFFLES = " ",
+		WALL_HAY =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+		},
+		WALL_HAY_ITEM = " ",
+		WALL_STONE = " ",
+		WALL_STONE_ITEM = " ",
+		WALL_RUINS = " ",
+		WALL_RUINS_ITEM = " ",
+		WALL_WOOD =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+		},
+		WALL_WOOD_ITEM = " ",
+		WALL_MOONROCK = " ",
+		WALL_MOONROCK_ITEM = " ",
+		FENCE = " ",
+        FENCE_ITEM = " ",
+        FENCE_GATE = " ",
+        FENCE_GATE_ITEM = " ",
+		WALRUS = " ",
+		WALRUSHAT = " ",
+		WALRUS_CAMP =
+		{
+			EMPTY = " ",
+			GENERIC = " ",
+		},
+		WALRUS_TUSK = " ",
+		WARDROBE =
+		{
+			GENERIC = " ",
+            BURNING = " ",
+			BURNT = " ",
+		},
+		WARG = " ",
+        WARGLET = " ",
+
+		WASPHIVE = " ",
+		WATERBALLOON = " ",
+		WATERMELON = " ",
+		WATERMELON_COOKED = " ",
+		WATERMELONHAT = " ",
+		WAXWELLJOURNAL =
+		{
+			GENERIC = " ",
+--fallback to speech_wilson.lua			NEEDSFUEL = "only_used_by_waxwell",
+		},
+		WETGOOP = " ",
+        WHIP = " ",
+		WINTERHAT = " ",
+		WINTEROMETER =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+		},
+
+        WINTER_TREE =
+        {
+            BURNT = " ",
+            BURNING = " ",
+            CANDECORATE = " ",
+            YOUNG = " ",
+        },
+		WINTER_TREESTAND =
+		{
+			GENERIC = " ",
+            BURNT = " ",
+		},
+        WINTER_ORNAMENT = " ",
+        WINTER_ORNAMENTLIGHT = " ",
+        WINTER_ORNAMENTBOSS = " ",
+		WINTER_ORNAMENTFORGE = " ",
+		WINTER_ORNAMENTGORGE = " ",
+
+        WINTER_FOOD1 = " ", --gingerbread cookie
+        WINTER_FOOD2 = " ", --sugar cookie
+        WINTER_FOOD3 = " ", --candy cane
+        WINTER_FOOD4 = " ", --fruitcake
+        WINTER_FOOD5 = " ", --yule log cake
+        WINTER_FOOD6 = " ", --plum pudding
+        WINTER_FOOD7 = " ", --apple cider
+        WINTER_FOOD8 = " ", --hot cocoa
+        WINTER_FOOD9 = " ", --eggnog
+
+		WINTERSFEASTOVEN =
+		{
+			GENERIC = " ",
+			COOKING = " ",
+			ALMOST_DONE_COOKING = " ",
+			DISH_READY = " ",
+		},
+		BERRYSAUCE = " ",
+		BIBINGKA = " ",
+		CABBAGEROLLS = " ",
+		FESTIVEFISH = " ",
+		GRAVY = " ",
+		LATKES = " ",
+		LUTEFISK = " ",
+		MULLEDDRINK = " ",
+		PANETTONE = " ",
+		PAVLOVA = " ",
+		PICKLEDHERRING = " ",
+		POLISHCOOKIE = " ",
+		PUMPKINPIE = " ",
+		ROASTTURKEY = " ",
+		STUFFING = " ",
+		SWEETPOTATO = " ",
+		TAMALES = " ",
+		TOURTIERE = " ",
+
+		TABLE_WINTERS_FEAST =
+		{
+			GENERIC = " ",
+			HAS_FOOD = " ",
+			WRONG_TYPE = " ",
+			BURNT = " ",
+		},
+
+		GINGERBREADWARG = " ",
+		GINGERBREADHOUSE = " ",
+		GINGERBREADPIG = " ",
+		CRUMBS = " ",
+		WINTERSFEASTFUEL = " ",
+
+        KLAUS = " ",
+        KLAUS_SACK = " ",
+		KLAUSSACKKEY = " ",
+		WORMHOLE =
+		{
+			GENERIC = " ",
+			OPEN = " ",
+		},
+		WORMHOLE_LIMITED = " ",
+		ACCOMPLISHMENT_SHRINE = " ", --single player
+		LIVINGTREE = " ",
+		ICESTAFF = " ",
+		REVIVER = " ",
+		SHADOWHEART = " ",
+        ATRIUM_RUBBLE =
+        {
+			LINE_1 = " ",
+			LINE_2 = " ",
+			LINE_3 = " ",
+			LINE_4 = " ",
+			LINE_5 = " ",
+		},
+        ATRIUM_STATUE = " ",
+        ATRIUM_LIGHT =
+        {
+			ON = " ",
+			OFF = " ",
+		},
+        ATRIUM_GATE =
+        {
+			ON = " ",
+			OFF = " ",
+			CHARGING = " ",
+			DESTABILIZING = " ",
+			COOLDOWN = " ",
+        },
+        ATRIUM_KEY = " ",
+		LIFEINJECTOR = " ",
+		SKELETON_PLAYER =
+		{
+			MALE = " ",
+			FEMALE = " ",
+			ROBOT = " ",
+			DEFAULT = " ",
+		},
+--fallback to speech_wilson.lua 		HUMANMEAT = " ",
+--fallback to speech_wilson.lua 		HUMANMEAT_COOKED = " ",
+--fallback to speech_wilson.lua 		HUMANMEAT_DRIED = " ",
+		ROCK_MOON = " ",
+		MOONROCKNUGGET = " ",
+		MOONROCKCRATER = " ",
+		MOONROCKSEED = " ",
+
+        REDMOONEYE = " ",
+        PURPLEMOONEYE = " ",
+        GREENMOONEYE = " ",
+        ORANGEMOONEYE = " ",
+        YELLOWMOONEYE = " ",
+        BLUEMOONEYE = " ",
+
+        --Arena Event
+        LAVAARENA_BOARLORD = " ",
+        BOARRIOR = " ",
+        BOARON = " ",
+        PEGHOOK = " ",
+        TRAILS = " ",
+        TURTILLUS = " ",
+        SNAPPER = " ",
+		RHINODRILL = " ",
+		BEETLETAUR = " ",
+
+        LAVAARENA_PORTAL =
+        {
+            ON = " ",
+            GENERIC = " ",
+        },
+        LAVAARENA_KEYHOLE = " ",
+		LAVAARENA_KEYHOLE_FULL = " ",
+        LAVAARENA_BATTLESTANDARD = " ",
+        LAVAARENA_SPAWNER = " ",
+
+        HEALINGSTAFF = " ",
+        FIREBALLSTAFF = " ",
+        HAMMER_MJOLNIR = " ",
+        SPEAR_GUNGNIR = " ",
+        BLOWDART_LAVA = " ",
+        BLOWDART_LAVA2 = " ",
+        LAVAARENA_LUCY = " ",
+        WEBBER_SPIDER_MINION = " ",
+        BOOK_FOSSIL = " ",
+		LAVAARENA_BERNIE = " ",
+		SPEAR_LANCE = " ",
+		BOOK_ELEMENTAL = " ",
+		LAVAARENA_ELEMENTAL = " ",
+
+   		LAVAARENA_ARMORLIGHT = " ",
+		LAVAARENA_ARMORLIGHTSPEED = " ",
+		LAVAARENA_ARMORMEDIUM = " ",
+		LAVAARENA_ARMORMEDIUMDAMAGER = " ",
+		LAVAARENA_ARMORMEDIUMRECHARGER = " ",
+		LAVAARENA_ARMORHEAVY = " ",
+		LAVAARENA_ARMOREXTRAHEAVY = " ",
+
+		LAVAARENA_FEATHERCROWNHAT = " ",
+        LAVAARENA_HEALINGFLOWERHAT = " ",
+        LAVAARENA_LIGHTDAMAGERHAT = " ",
+        LAVAARENA_STRONGDAMAGERHAT = " ",
+        LAVAARENA_TIARAFLOWERPETALSHAT = " ",
+        LAVAARENA_EYECIRCLETHAT = " ",
+        LAVAARENA_RECHARGERHAT = " ",
+        LAVAARENA_HEALINGGARLANDHAT = " ",
+        LAVAARENA_CROWNDAMAGERHAT = " ",
+
+		LAVAARENA_ARMOR_HP = " ",
+
+		LAVAARENA_FIREBOMB = " ",
+		LAVAARENA_HEAVYBLADE = " ",
+
+        --Quagmire
+        QUAGMIRE_ALTAR =
+        {
+        	GENERIC = " ",
+        	FULL = " ",
+    	},
+		QUAGMIRE_ALTAR_STATUE1 = " ",
+		QUAGMIRE_PARK_FOUNTAIN = " ",
+
+        QUAGMIRE_HOE = " ",
+
+        QUAGMIRE_TURNIP = " ",
+        QUAGMIRE_TURNIP_COOKED = " ",
+        QUAGMIRE_TURNIP_SEEDS = " ",
+
+        QUAGMIRE_GARLIC = " ",
+        QUAGMIRE_GARLIC_COOKED = " ",
+        QUAGMIRE_GARLIC_SEEDS = " ",
+
+        QUAGMIRE_ONION = " ",
+        QUAGMIRE_ONION_COOKED = " ",
+        QUAGMIRE_ONION_SEEDS = " ",
+
+        QUAGMIRE_POTATO = " ",
+        QUAGMIRE_POTATO_COOKED = " ",
+        QUAGMIRE_POTATO_SEEDS = " ",
+
+        QUAGMIRE_TOMATO = " ",
+        QUAGMIRE_TOMATO_COOKED = " ",
+        QUAGMIRE_TOMATO_SEEDS = " ",
+
+        QUAGMIRE_FLOUR = " ",
+        QUAGMIRE_WHEAT = " ",
+        QUAGMIRE_WHEAT_SEEDS = " ",
+        --NOTE: raw/cooked carrot uses regular carrot strings
+        QUAGMIRE_CARROT_SEEDS = " ",
+
+        QUAGMIRE_ROTTEN_CROP = " ",
+
+		QUAGMIRE_SALMON = " ",
+		QUAGMIRE_SALMON_COOKED = " ",
+		QUAGMIRE_CRABMEAT = " ",
+		QUAGMIRE_CRABMEAT_COOKED = " ",
+		QUAGMIRE_SUGARWOODTREE =
+		{
+			GENERIC = " ",
+			STUMP = " ",
+			TAPPED_EMPTY = " ",
+			TAPPED_READY = " ",
+			TAPPED_BUGS = " ",
+			WOUNDED = " ",
+		},
+		QUAGMIRE_SPOTSPICE_SHRUB =
+		{
+			GENERIC = " ",
+			PICKED = " ",
+		},
+		QUAGMIRE_SPOTSPICE_SPRIG = " ",
+		QUAGMIRE_SPOTSPICE_GROUND = " ",
+		QUAGMIRE_SAPBUCKET = " ",
+		QUAGMIRE_SAP = " ",
+		QUAGMIRE_SALT_RACK =
+		{
+			READY = " ",
+			GENERIC = " ",
+		},
+
+		QUAGMIRE_POND_SALT = " ",
+		QUAGMIRE_SALT_RACK_ITEM = " ",
+
+		QUAGMIRE_SAFE =
+		{
+			GENERIC = " ",
+			LOCKED = " ",
+		},
+
+		QUAGMIRE_KEY = " ",
+		QUAGMIRE_KEY_PARK = " ",
+        QUAGMIRE_PORTAL_KEY = " ",
+
+
+		QUAGMIRE_MUSHROOMSTUMP =
+		{
+			GENERIC = " ",
+			PICKED = " ",
+		},
+		QUAGMIRE_MUSHROOMS = " ",
+        QUAGMIRE_MEALINGSTONE = " ",
+		QUAGMIRE_PEBBLECRAB = " ",
+
+
+		QUAGMIRE_RUBBLE_CARRIAGE = " ",
+        QUAGMIRE_RUBBLE_CLOCK = " ",
+        QUAGMIRE_RUBBLE_CATHEDRAL = " ",
+        QUAGMIRE_RUBBLE_PUBDOOR = " ",
+        QUAGMIRE_RUBBLE_ROOF = " ",
+        QUAGMIRE_RUBBLE_CLOCKTOWER = " ",
+        QUAGMIRE_RUBBLE_BIKE = " ",
+        QUAGMIRE_RUBBLE_HOUSE =
+        {
+            " ",
+            " ",
+            " ",
+        },
+        QUAGMIRE_RUBBLE_CHIMNEY = " ",
+        QUAGMIRE_RUBBLE_CHIMNEY2 = " ",
+        QUAGMIRE_MERMHOUSE = " ",
+        QUAGMIRE_SWAMPIG_HOUSE = " ",
+        QUAGMIRE_SWAMPIG_HOUSE_RUBBLE = " ",
+        QUAGMIRE_SWAMPIGELDER =
+        {
+            GENERIC = " ",
+            SLEEPING = " ",
+        },
+        QUAGMIRE_SWAMPIG = " ",
+
+        QUAGMIRE_PORTAL = " ",
+        QUAGMIRE_SALTROCK = " ",
+        QUAGMIRE_SALT = " ",
+        --food--
+        QUAGMIRE_FOOD_BURNT = " ",
+        QUAGMIRE_FOOD =
+        {
+        	GENERIC = " ",
+            MISMATCH = " ",
+            MATCH = " ",
+            MATCH_BUT_SNACK = " ",
+        },
+
+        QUAGMIRE_FERN = " ",
+        QUAGMIRE_FOLIAGE_COOKED = " ",
+        QUAGMIRE_COIN1 = " ",
+        QUAGMIRE_COIN2 = " ",
+        QUAGMIRE_COIN3 = " ",
+        QUAGMIRE_COIN4 = " ",
+        QUAGMIRE_GOATMILK = " ",
+        QUAGMIRE_SYRUP = " ",
+        QUAGMIRE_SAP_SPOILED = " ",
+        QUAGMIRE_SEEDPACKET = " ",
+
+        QUAGMIRE_POT = " ",
+        QUAGMIRE_POT_SMALL = " ",
+        QUAGMIRE_POT_SYRUP = " ",
+        QUAGMIRE_POT_HANGER = " ",
+        QUAGMIRE_POT_HANGER_ITEM = " ",
+        QUAGMIRE_GRILL = " ",
+        QUAGMIRE_GRILL_ITEM = " ",
+        QUAGMIRE_GRILL_SMALL = " ",
+        QUAGMIRE_GRILL_SMALL_ITEM = " ",
+        QUAGMIRE_OVEN = " ",
+        QUAGMIRE_OVEN_ITEM = " ",
+        QUAGMIRE_CASSEROLEDISH = " ",
+        QUAGMIRE_CASSEROLEDISH_SMALL = " ",
+        QUAGMIRE_PLATE_SILVER = " ",
+        QUAGMIRE_BOWL_SILVER = " ",
+--fallback to speech_wilson.lua         QUAGMIRE_CRATE = " ",
+
+        QUAGMIRE_MERM_CART1 = " ", --sammy's wagon
+        QUAGMIRE_MERM_CART2 = " ", --pipton's cart
+        QUAGMIRE_PARK_ANGEL = " ",
+        QUAGMIRE_PARK_ANGEL2 = " ",
+        QUAGMIRE_PARK_URN = " ",
+        QUAGMIRE_PARK_OBELISK = " ",
+        QUAGMIRE_PARK_GATE =
+        {
+            GENERIC = " ",
+            LOCKED = " ",
+        },
+        QUAGMIRE_PARKSPIKE = " ",
+        QUAGMIRE_CRABTRAP = " ",
+        QUAGMIRE_TRADER_MERM = " ",
+        QUAGMIRE_TRADER_MERM2 = " ",
+
+        QUAGMIRE_GOATMUM = " ",
+        QUAGMIRE_GOATKID = " ",
+        QUAGMIRE_PIGEON =
+        {
+            DEAD = " ",
+            GENERIC = " ",
+            SLEEPING = " ",
+        },
+        QUAGMIRE_LAMP_POST = " ",
+
+        QUAGMIRE_BEEFALO = " ",
+        QUAGMIRE_SLAUGHTERTOOL = " ",
+
+        QUAGMIRE_SAPLING = " ",
+        QUAGMIRE_BERRYBUSH = " ",
+
+        QUAGMIRE_ALTAR_STATUE2 = " ",
+        QUAGMIRE_ALTAR_QUEEN = " ",
+        QUAGMIRE_ALTAR_BOLLARD = " ",
+        QUAGMIRE_ALTAR_IVY = " ",
+
+        QUAGMIRE_LAMP_SHORT = " ",
+
+        --v2 Winona
+        WINONA_CATAPULT =
+        {
+        	GENERIC = " ",
+        	OFF = " ",
+        	BURNING = " ",
+        	BURNT = " ",
+        },
+        WINONA_SPOTLIGHT =
+        {
+        	GENERIC = " ",
+        	OFF = " ",
+        	BURNING = " ",
+        	BURNT = " ",
+        },
+        WINONA_BATTERY_LOW =
+        {
+        	GENERIC = " ",
+        	LOWPOWER = " ",
+        	OFF = " ",
+        	BURNING = " ",
+        	BURNT = " ",
+        },
+        WINONA_BATTERY_HIGH =
+        {
+        	GENERIC = " ",
+        	LOWPOWER = " ",
+        	OFF = " ",
+        	BURNING = " ",
+        	BURNT = " ",
+        },
+
+        --Wormwood
+        COMPOSTWRAP = " ",
+        ARMOR_BRAMBLE = " ",
+        TRAP_BRAMBLE = " ",
+
+        BOATFRAGMENT03 = " ",
+        BOATFRAGMENT04 = " ",
+        BOATFRAGMENT05 = " ",
+		BOAT_LEAK = " ",
+        MAST = " ",
+        SEASTACK = " ",
+        FISHINGNET = " ", --unimplemented
+        ANTCHOVIES = " ", --unimplemented
+        STEERINGWHEEL = " ",
+        ANCHOR = " ",
+        BOATPATCH = " ",
+        DRIFTWOOD_TREE =
+        {
+            BURNING = " ",
+            BURNT = " ",
+            CHOPPED = " ",
+            GENERIC = " ",
+        },
+
+        DRIFTWOOD_LOG = " ",
+
+        MOON_TREE =
+        {
+            BURNING = " ",
+            BURNT = " ",
+            CHOPPED = " ",
+            GENERIC = " ",
+        },
+		MOON_TREE_BLOSSOM = " ",
+
+        MOONBUTTERFLY =
+        {
+        	GENERIC = " ",
+        	HELD = " ",
+        },
+		MOONBUTTERFLYWINGS = " ",
+        MOONBUTTERFLY_SAPLING = " ",
+        ROCK_AVOCADO_FRUIT = " ",
+        ROCK_AVOCADO_FRUIT_RIPE = " ",
+        ROCK_AVOCADO_FRUIT_RIPE_COOKED = " ",
+        ROCK_AVOCADO_FRUIT_SPROUT = " ",
+        ROCK_AVOCADO_BUSH =
+        {
+        	BARREN = " ",
+			WITHERED = " ",
+			GENERIC = " ",
+			PICKED = " ",
+			DISEASED = " ", --unimplemented
+            DISEASING = " ", --unimplemented
+			BURNING = " ",
+		},
+        DEAD_SEA_BONES = " ",
+        HOTSPRING =
+        {
+        	GENERIC = " ",
+        	BOMBED = " ",
+        	GLASS = " ",
+			EMPTY = " ",
+        },
+        MOONGLASS = " ",
+        MOONGLASS_CHARGED = " ",
+        MOONGLASS_ROCK = " ",
+        BATHBOMB = " ",
+        TRAP_STARFISH =
+        {
+            GENERIC = " ",
+            CLOSED = " ",
+        },
+        DUG_TRAP_STARFISH = " ",
+        SPIDER_MOON =
+        {
+        	GENERIC = " ",
+        	SLEEPING = " ",
+        	DEAD = " ",
+        },
+        MOONSPIDERDEN = " ",
+		FRUITDRAGON =
+		{
+			GENERIC = " ",
+			RIPE = " ",
+			SLEEPING = " ",
+		},
+        PUFFIN =
+        {
+            GENERIC = " ",
+            HELD = " ",
+            SLEEPING = " ",
+        },
+
+		MOONGLASSAXE = " ",
+		GLASSCUTTER = " ",
+
+        ICEBERG =
+        {
+            GENERIC = " ", --unimplemented
+            MELTED = " ", --unimplemented
+        },
+        ICEBERG_MELTED = " ", --unimplemented
+
+        MINIFLARE = " ",
+        MEGAFLARE = " ",
+
+		MOON_FISSURE =
+		{
+			GENERIC = " ",
+			NOLIGHT = " ",
+		},
+        MOON_ALTAR =
+        {
+            MOON_ALTAR_WIP = " ",
+            GENERIC = " ",
+        },
+
+        MOON_ALTAR_IDOL = " ",
+        MOON_ALTAR_GLASS = " ",
+        MOON_ALTAR_SEED = " ",
+
+        MOON_ALTAR_ROCK_IDOL = " ",
+        MOON_ALTAR_ROCK_GLASS = " ",
+        MOON_ALTAR_ROCK_SEED = " ",
+
+        MOON_ALTAR_CROWN = " ",
+        MOON_ALTAR_COSMIC = " ",
+
+        MOON_ALTAR_ASTRAL = " ",
+        MOON_ALTAR_ICON = " ",
+        MOON_ALTAR_WARD = " ",
+
+        SEAFARING_PROTOTYPER =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        BOAT_ITEM = " ",
+        BOAT_GRASS_ITEM = " ",
+        STEERINGWHEEL_ITEM = " ",
+        ANCHOR_ITEM = " ",
+        MAST_ITEM = " ",
+        MUTATEDHOUND =
+        {
+        	DEAD = " ",
+        	GENERIC = " ",
+        	SLEEPING = " ",
+        },
+
+        MUTATED_PENGUIN =
+        {
+			DEAD = " ",
+			GENERIC = " ",
+			SLEEPING = " ",
+		},
+        CARRAT =
+        {
+        	DEAD = " ",
+        	GENERIC = " ",
+        	HELD = " ",
+        	SLEEPING = " ",
+        },
+
+		BULLKELP_PLANT =
+        {
+            GENERIC = " ",
+            PICKED = " ",
+        },
+		BULLKELP_ROOT = " ",
+        KELPHAT = " ",
+		KELP = " ",
+		KELP_COOKED = " ",
+		KELP_DRIED = " ",
+
+		GESTALT = " ",
+        GESTALT_GUARD = " ",
+
+		COOKIECUTTER = " ",
+		COOKIECUTTERSHELL = " ",
+		COOKIECUTTERHAT = " ",
+		SALTSTACK =
+		{
+			GENERIC = " ",
+			MINED_OUT = " ",
+			GROWING = " ",
+		},
+		SALTROCK = " ",
+		SALTBOX = " ",
+
+		TACKLESTATION = " ",
+		TACKLESKETCH = " ",
+
+        MALBATROSS = " ",
+        MALBATROSS_FEATHER = " ",
+        MALBATROSS_BEAK = " ",
+        MAST_MALBATROSS_ITEM = " ",
+        MAST_MALBATROSS = " ",
+		MALBATROSS_FEATHERED_WEAVE = " ",
+
+        GNARWAIL =
+        {
+            GENERIC = " ",
+            BROKENHORN = " ",
+            FOLLOWER = " ",
+            BROKENHORN_FOLLOWER = " ",
+        },
+        GNARWAIL_HORN = " ",
+
+        WALKINGPLANK = " ",
+        WALKINGPLANK_GRASS = " ",
+        OAR = " ",
+		OAR_DRIFTWOOD = " ",
+
+		OCEANFISHINGROD = " ",
+		OCEANFISHINGBOBBER_NONE = " ",
+        OCEANFISHINGBOBBER_BALL = " ",
+        OCEANFISHINGBOBBER_OVAL = " ",
+		OCEANFISHINGBOBBER_CROW = " ",
+		OCEANFISHINGBOBBER_ROBIN = " ",
+		OCEANFISHINGBOBBER_ROBIN_WINTER = " ",
+		OCEANFISHINGBOBBER_CANARY = " ",
+		OCEANFISHINGBOBBER_GOOSE = " ",
+		OCEANFISHINGBOBBER_MALBATROSS = " ",
+
+		OCEANFISHINGLURE_SPINNER_RED = " ",
+		OCEANFISHINGLURE_SPINNER_GREEN = " ",
+		OCEANFISHINGLURE_SPINNER_BLUE = " ",
+		OCEANFISHINGLURE_SPOON_RED = " ",
+		OCEANFISHINGLURE_SPOON_GREEN = " ",
+		OCEANFISHINGLURE_SPOON_BLUE = " ",
+		OCEANFISHINGLURE_HERMIT_RAIN = " ",
+		OCEANFISHINGLURE_HERMIT_SNOW = " ",
+		OCEANFISHINGLURE_HERMIT_DROWSY = " ",
+		OCEANFISHINGLURE_HERMIT_HEAVY = " ",
+
+		OCEANFISH_SMALL_1 = " ",
+		OCEANFISH_SMALL_2 = " ",
+		OCEANFISH_SMALL_3 = " ",
+		OCEANFISH_SMALL_4 = " ",
+		OCEANFISH_SMALL_5 = " ",
+		OCEANFISH_SMALL_6 = " ",
+		OCEANFISH_SMALL_7 = " ",
+		OCEANFISH_SMALL_8 = " ",
+        OCEANFISH_SMALL_9 = " ",
+
+		OCEANFISH_MEDIUM_1 = " ",
+		OCEANFISH_MEDIUM_2 = " ",
+		OCEANFISH_MEDIUM_3 = " ",
+		OCEANFISH_MEDIUM_4 = " ",
+		OCEANFISH_MEDIUM_5 = " ",
+		OCEANFISH_MEDIUM_6 = " ",
+		OCEANFISH_MEDIUM_7 = " ",
+		OCEANFISH_MEDIUM_8 = " ",
+        OCEANFISH_MEDIUM_9 = " ",
+
+		PONDFISH = " ",
+		PONDEEL = " ",
+
+        FISHMEAT = " ",
+        FISHMEAT_COOKED = " ",
+        FISHMEAT_SMALL = " ",
+        FISHMEAT_SMALL_COOKED = " ",
+		SPOILED_FISH = " ",
+
+		FISH_BOX = " ",
+        POCKET_SCALE = " ",
+
+		TACKLECONTAINER = " ",
+		SUPERTACKLECONTAINER = " ",
+
+		TROPHYSCALE_FISH =
+		{
+			GENERIC = " ",
+			HAS_ITEM = " ",
+			HAS_ITEM_HEAVY = " ",
+			BURNING = " ",
+			BURNT = " ",
+			OWNER = " ",
+			OWNER_HEAVY = " ",
+		},
+
+		OCEANFISHABLEFLOTSAM = " ",
+
+		CALIFORNIAROLL = " ",
+		SEAFOODGUMBO = " ",
+		SURFNTURF = " ",
+
+        WOBSTER_SHELLER = " ",
+        WOBSTER_DEN = " ",
+        WOBSTER_SHELLER_DEAD = " ",
+        WOBSTER_SHELLER_DEAD_COOKED = " ",
+
+        LOBSTERBISQUE = " ",
+        LOBSTERDINNER = " ",
+
+        WOBSTER_MOONGLASS = " ",
+        MOONGLASS_WOBSTER_DEN = " ",
+
+		TRIDENT = " ",
+
+		WINCH =
+		{
+			GENERIC = " ",
+			RETRIEVING_ITEM = " ",
+			HOLDING_ITEM = " ",
+		},
+
+        HERMITHOUSE = {
+            GENERIC = " ",
+            BUILTUP = " ",
+        },
+
+        SHELL_CLUSTER = " ",
+        --
+		SINGINGSHELL_OCTAVE3 =
+		{
+			GENERIC = " ",
+		},
+		SINGINGSHELL_OCTAVE4 =
+		{
+			GENERIC = " ",
+		},
+		SINGINGSHELL_OCTAVE5 =
+		{
+			GENERIC = " ",
+        },
+
+        CHUM = " ",
+
+        SUNKENCHEST =
+        {
+            GENERIC = " ",
+            LOCKED = " ",
+        },
+
+        HERMIT_BUNDLE = " ",
+        HERMIT_BUNDLE_SHELLS = " ",
+
+        RESKIN_TOOL = " ",
+        MOON_FISSURE_PLUGGED = " ",
+
+
+		----------------------- ROT STRINGS GO ABOVE HERE ------------------
+
+		-- Walter
+        WOBYBIG =
+        {
+            " ",
+            " ",
+        },
+        WOBYSMALL =
+        {
+            " ",
+            " ",
+        },
+		WALTERHAT = " ",
+		SLINGSHOT = " ",
+		SLINGSHOTAMMO_ROCK = " ",
+		SLINGSHOTAMMO_MARBLE = " ",
+		SLINGSHOTAMMO_THULECITE = " ",
+        SLINGSHOTAMMO_GOLD = " ",
+        SLINGSHOTAMMO_SLOW = " ",
+        SLINGSHOTAMMO_FREEZE = " ",
+		SLINGSHOTAMMO_POOP = " ",
+        PORTABLETENT = " ",
+        PORTABLETENT_ITEM = " ",
+
+        -- Wigfrid
+        BATTLESONG_DURABILITY = " ",
+        BATTLESONG_HEALTHGAIN = " ",
+        BATTLESONG_SANITYGAIN = " ",
+        BATTLESONG_SANITYAURA = " ",
+        BATTLESONG_FIRERESISTANCE = " ",
+        BATTLESONG_INSTANT_TAUNT = " ",
+        BATTLESONG_INSTANT_PANIC = " ",
+
+        -- Webber
+        MUTATOR_WARRIOR = " ",
+        MUTATOR_DROPPER = " ",
+        MUTATOR_HIDER = " ",
+        MUTATOR_SPITTER = " ",
+        MUTATOR_MOON = " ",
+        MUTATOR_HEALER = " ",
+        SPIDER_WHISTLE = " ",
+        SPIDERDEN_BEDAZZLER = " ",
+        SPIDER_HEALER = " ",
+        SPIDER_REPELLENT = " ",
+        SPIDER_HEALER_ITEM = " ",
+
+		-- Wendy
+		GHOSTLYELIXIR_SLOWREGEN = " ",
+		GHOSTLYELIXIR_FASTREGEN = " ",
+		GHOSTLYELIXIR_SHIELD = " ",
+		GHOSTLYELIXIR_ATTACK = " ",
+		GHOSTLYELIXIR_SPEED = " ",
+		GHOSTLYELIXIR_RETALIATION = " ",
+		SISTURN =
+		{
+			GENERIC = " ",
+			SOME_FLOWERS = " ",
+			LOTS_OF_FLOWERS = " ",
+		},
+
+        --Wortox
+--fallback to speech_wilson.lua         WORTOX_SOUL = "only_used_by_wortox", --only wortox can inspect souls
+
+        PORTABLECOOKPOT_ITEM =
+        {
+            GENERIC = " ",
+            DONE = " ",
+
+			COOKING_LONG = " ",
+			COOKING_SHORT = " ",
+			EMPTY = " ",
+        },
+
+        PORTABLEBLENDER_ITEM = " ",
+        PORTABLESPICER_ITEM =
+        {
+            GENERIC = " ",
+            DONE = " ",
+        },
+        SPICEPACK = " ",
+        SPICE_GARLIC = " ",
+        SPICE_SUGAR = " ",
+        SPICE_CHILI = " ",
+        SPICE_SALT = " ",
+        MONSTERTARTARE = " ",
+        FRESHFRUITCREPES = " ",
+        FROGFISHBOWL = " ",
+        POTATOTORNADO = " ",
+        DRAGONCHILISALAD = " ",
+        GLOWBERRYMOUSSE = " ",
+        VOLTGOATJELLY = " ",
+        NIGHTMAREPIE = " ",
+        BONESOUP = " ",
+        MASHEDPOTATOES = " ",
+        POTATOSOUFFLE = " ",
+        MOQUECA = " ",
+        GAZPACHO = " ",
+        ASPARAGUSSOUP = " ",
+        VEGSTINGER = " ",
+        BANANAPOP = " ",
+        CEVICHE = " ",
+        SALSA = " ",
+        PEPPERPOPPER = " ",
+
+        TURNIP = " ",
+        TURNIP_COOKED = " ",
+        TURNIP_SEEDS = " ",
+
+        GARLIC = " ",
+        GARLIC_COOKED = " ",
+        GARLIC_SEEDS = " ",
+
+        ONION = " ",
+        ONION_COOKED = " ",
+        ONION_SEEDS = " ",
+
+        POTATO = " ",
+        POTATO_COOKED = " ",
+        POTATO_SEEDS = " ",
+
+        TOMATO = " ",
+        TOMATO_COOKED = " ",
+        TOMATO_SEEDS = " ",
+
+        ASPARAGUS = " ",
+        ASPARAGUS_COOKED = " ",
+        ASPARAGUS_SEEDS = " ",
+
+        PEPPER = " ",
+        PEPPER_COOKED = " ",
+        PEPPER_SEEDS = " ",
+
+        WEREITEM_BEAVER = " ",
+        WEREITEM_GOOSE = " ",
+        WEREITEM_MOOSE = " ",
+
+        MERMHAT = " ",
+        MERMTHRONE =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        MERMTHRONE_CONSTRUCTION =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        MERMHOUSE_CRAFTED =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+
+        MERMWATCHTOWER_REGULAR = " ",
+        MERMWATCHTOWER_NOKING = " ",
+        MERMKING = " ",
+        MERMGUARD = " ",
+        MERM_PRINCE = " ",
+
+        SQUID = " ",
+
+		GHOSTFLOWER = " ",
+        SMALLGHOST = " ",
+
+        CRABKING =
+        {
+            GENERIC = " ",
+            INERT = " ",
+        },
+		CRABKING_CLAW = " ",
+
+		MESSAGEBOTTLE = " ",
+		MESSAGEBOTTLEEMPTY = " ",
+
+        MEATRACK_HERMIT =
+        {
+            DONE = " ",
+            DRYING = " ",
+            DRYINGINRAIN = " ",
+            GENERIC = " ",
+            BURNT = " ",
+            DONE_NOTMEAT = " ",
+            DRYING_NOTMEAT = " ",
+            DRYINGINRAIN_NOTMEAT = " ",
+        },
+        BEEBOX_HERMIT =
+        {
+            READY = " ",
+            FULLHONEY = " ",
+            GENERIC = " ",
+            NOHONEY = " ",
+            SOMEHONEY = " ",
+            BURNT = " ",
+        },
+
+        HERMITCRAB = " ",
+
+        HERMIT_PEARL = " ",
+        HERMIT_CRACKED_PEARL = " ",
+
+        -- DSEAS
+        WATERPLANT = " ",
+        WATERPLANT_BOMB = " ",
+        WATERPLANT_BABY = " ",
+        WATERPLANT_PLANTER = " ",
+
+        SHARK = " ",
+
+        MASTUPGRADE_LAMP_ITEM = " ",
+        MASTUPGRADE_LIGHTNINGROD_ITEM = " ",
+
+        WATERPUMP = " ",
+
+        BARNACLE = " ",
+        BARNACLE_COOKED = " ",
+
+        BARNACLEPITA = " ",
+        BARNACLESUSHI = " ",
+        BARNACLINGUINE = " ",
+        BARNACLESTUFFEDFISHHEAD = " ",
+
+        LEAFLOAF = " ",
+        LEAFYMEATBURGER = " ",
+        LEAFYMEATSOUFFLE = " ",
+        MEATYSALAD = " ",
+
+        -- GROTTO
+
+		MOLEBAT = " ",
+        MOLEBATHILL = " ",
+
+        BATNOSE = " ",
+        BATNOSE_COOKED = " ",
+        BATNOSEHAT = " ",
+
+        MUSHGNOME = " ",
+
+        SPORE_MOON = " ",
+
+        MOON_CAP = " ",
+        MOON_CAP_COOKED = " ",
+
+        MUSHTREE_MOON = " ",
+
+        LIGHTFLIER = " ",
+
+        GROTTO_POOL_BIG = " ",
+        GROTTO_POOL_SMALL = " ",
+
+        DUSTMOTH = " ",
+
+        DUSTMOTHDEN = " ",
+
+        ARCHIVE_LOCKBOX = " ",
+        ARCHIVE_CENTIPEDE = " ",
+        ARCHIVE_CENTIPEDE_HUSK = " ",
+
+        ARCHIVE_COOKPOT =
+        {
+            COOKING_LONG = " ",
+            COOKING_SHORT = " ",
+            DONE = " ",
+            EMPTY = " ",
+            BURNT = " ",
+        },
+
+        ARCHIVE_MOON_STATUE = " ",
+        ARCHIVE_RUNE_STATUE =
+        {
+            LINE_1 = " ",
+            LINE_2 = " ",
+            LINE_3 = " ",
+            LINE_4 = " ",
+            LINE_5 = " ",
+        },
+
+        ARCHIVE_RESONATOR = {
+            GENERIC = " ",
+            IDLE = " ",
+        },
+
+        ARCHIVE_RESONATOR_ITEM = " ",
+
+        ARCHIVE_LOCKBOX_DISPENCER = {
+          POWEROFF = " ",
+          GENERIC =  " ",
+        },
+
+        ARCHIVE_SECURITY_DESK = {
+            POWEROFF = " ",
+            GENERIC = " ",
+        },
+
+        ARCHIVE_SECURITY_PULSE = " ",
+
+        ARCHIVE_SWITCH = {
+            VALID = " ",
+            GEMS = " ",
+        },
+
+        ARCHIVE_PORTAL = {
+            POWEROFF = " ",
+            GENERIC = " ",
+        },
+
+        WALL_STONE_2 = " ",
+        WALL_RUINS_2 = " ",
+
+        REFINED_DUST = " ",
+        DUSTMERINGUE = " ",
+
+        SHROOMCAKE = " ",
+
+        NIGHTMAREGROWTH = " ",
+
+        TURFCRAFTINGSTATION = " ",
+
+        MOON_ALTAR_LINK = " ",
+
+        -- FARMING
+        COMPOSTINGBIN =
+        {
+            GENERIC = " ",
+            WET = " ",
+            DRY = " ",
+            BALANCED = " ",
+            BURNT = " ",
+        },
+        COMPOST = " ",
+        SOIL_AMENDER =
+		{
+			GENERIC = " ",
+			STALE = " ",
+			SPOILED = " ",
+		},
+
+		SOIL_AMENDER_FERMENTED = " ",
+
+        WATERINGCAN =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+        },
+        PREMIUMWATERINGCAN =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+        },
+
+		FARM_PLOW = " ",
+		FARM_PLOW_ITEM = " ",
+		FARM_HOE = " ",
+		GOLDEN_FARM_HOE = " ",
+		NUTRIENTSGOGGLESHAT = " ",
+		PLANTREGISTRYHAT = " ",
+
+        FARM_SOIL_DEBRIS = " ",
+
+		FIRENETTLES = " ",
+		FORGETMELOTS = " ",
+		SWEETTEA = " ",
+		TILLWEED = " ",
+		TILLWEEDSALVE = " ",
+        WEED_IVY = " ",
+        IVY_SNARE = " ",
+
+		TROPHYSCALE_OVERSIZEDVEGGIES =
+		{
+			GENERIC = " ",
+			HAS_ITEM = " ",
+			HAS_ITEM_HEAVY = " ",
+            HAS_ITEM_LIGHT = " ",
+			BURNING = " ",
+			BURNT = " ",
+        },
+
+        CARROT_OVERSIZED = " ",
+        CORN_OVERSIZED = " ",
+        PUMPKIN_OVERSIZED = " ",
+        EGGPLANT_OVERSIZED = " ",
+        DURIAN_OVERSIZED = " ",
+        POMEGRANATE_OVERSIZED = " ",
+        DRAGONFRUIT_OVERSIZED = " ",
+        WATERMELON_OVERSIZED = " ",
+        TOMATO_OVERSIZED = " ",
+        POTATO_OVERSIZED = " ",
+        ASPARAGUS_OVERSIZED = " ",
+        ONION_OVERSIZED = " ",
+        GARLIC_OVERSIZED = " ",
+        PEPPER_OVERSIZED = " ",
+
+        VEGGIE_OVERSIZED_ROTTEN = " ",
+
+		FARM_PLANT =
+		{
+			GENERIC = " ",
+			SEED = " ",
+			GROWING = " ",
+			FULL = " ",
+			ROTTEN = " ",
+			FULL_OVERSIZED = " ",
+			ROTTEN_OVERSIZED = " ",
+			FULL_WEED = " ",
+
+			BURNING = " ",
+		},
+
+        FRUITFLY = " ",
+        LORDFRUITFLY = " ",
+        FRIENDLYFRUITFLY = " ",
+        FRUITFLYFRUIT = " ",
+
+        SEEDPOUCH = " ",
+
+		-- Crow Carnival
+		CARNIVAL_HOST = " ",
+		CARNIVAL_CROWKID = " ",
+		CARNIVAL_GAMETOKEN = " ",
+		CARNIVAL_PRIZETICKET =
+		{
+			GENERIC = " ",
+			GENERIC_SMALLSTACK = " ",
+			GENERIC_LARGESTACK = " ",
+		},
+
+		CARNIVALGAME_FEEDCHICKS_NEST = " ",
+		CARNIVALGAME_FEEDCHICKS_STATION =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+		CARNIVALGAME_FEEDCHICKS_KIT = " ",
+		CARNIVALGAME_FEEDCHICKS_FOOD = " ",
+
+		CARNIVALGAME_MEMORY_KIT = " ",
+		CARNIVALGAME_MEMORY_STATION =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+		CARNIVALGAME_MEMORY_CARD =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+
+		CARNIVALGAME_HERDING_KIT = " ",
+		CARNIVALGAME_HERDING_STATION =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+		CARNIVALGAME_HERDING_CHICK = " ",
+
+		CARNIVALGAME_SHOOTING_KIT = " ",
+		CARNIVALGAME_SHOOTING_STATION =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+		CARNIVALGAME_SHOOTING_TARGET =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+
+		CARNIVALGAME_SHOOTING_BUTTON =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+
+		CARNIVALGAME_WHEELSPIN_KIT = " ",
+		CARNIVALGAME_WHEELSPIN_STATION =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+
+		CARNIVALGAME_PUCKDROP_KIT = " ",
+		CARNIVALGAME_PUCKDROP_STATION =
+		{
+			GENERIC = " ",
+			PLAYING = " ",
+		},
+
+		CARNIVAL_PRIZEBOOTH_KIT = " ",
+		CARNIVAL_PRIZEBOOTH =
+		{
+			GENERIC = " ",
+		},
+
+		CARNIVALCANNON_KIT = " ",
+		CARNIVALCANNON =
+		{
+			GENERIC = " ",
+			COOLDOWN = " ",
+		},
+
+		CARNIVAL_PLAZA_KIT = " ",
+		CARNIVAL_PLAZA =
+		{
+			GENERIC = " ",
+			LEVEL_2 = " ",
+			LEVEL_3 = " ",
+		},
+
+		CARNIVALDECOR_EGGRIDE_KIT = " ",
+		CARNIVALDECOR_EGGRIDE = " ",
+
+		CARNIVALDECOR_LAMP_KIT = " ",
+		CARNIVALDECOR_LAMP = " ",
+		CARNIVALDECOR_PLANT_KIT = " ",
+		CARNIVALDECOR_PLANT = " ",
+		CARNIVALDECOR_BANNER_KIT = " ",
+		CARNIVALDECOR_BANNER = " ",
+
+		CARNIVALDECOR_FIGURE =
+		{
+			RARE = " ",
+			UNCOMMON = " ",
+			GENERIC = " ",
+		},
+		CARNIVALDECOR_FIGURE_KIT = " ",
+		CARNIVALDECOR_FIGURE_KIT_SEASON2 = " ",
+
+        CARNIVAL_BALL = " ", --unimplemented
+		CARNIVAL_SEEDPACKET = " ",
+		CARNIVALFOOD_CORNTEA = " ",
+
+        CARNIVAL_VEST_A = " ",
+        CARNIVAL_VEST_B = " ",
+        CARNIVAL_VEST_C = " ",
+
+        -- YOTB
+        YOTB_SEWINGMACHINE = " ",
+        YOTB_SEWINGMACHINE_ITEM = " ",
+        YOTB_STAGE = " ",
+        YOTB_POST =  " ",
+        YOTB_STAGE_ITEM = " ",
+        YOTB_POST_ITEM =  " ",
+
+
+        YOTB_PATTERN_FRAGMENT_1 = " ",
+        YOTB_PATTERN_FRAGMENT_2 = " ",
+        YOTB_PATTERN_FRAGMENT_3 = " ",
+
+        YOTB_BEEFALO_DOLL_WAR = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_DOLL = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_FESTIVE = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_NATURE = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_ROBOT = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_ICE = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_FORMAL = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_VICTORIAN = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+        YOTB_BEEFALO_DOLL_BEAST = {
+            GENERIC = " ",
+            YOTB = " ",
+        },
+
+        WAR_BLUEPRINT = " ",
+        DOLL_BLUEPRINT = " ",
+        FESTIVE_BLUEPRINT = " ",
+        ROBOT_BLUEPRINT = " ",
+        NATURE_BLUEPRINT = " ",
+        FORMAL_BLUEPRINT = " ",
+        VICTORIAN_BLUEPRINT = " ",
+        ICE_BLUEPRINT = " ",
+        BEAST_BLUEPRINT = " ",
+
+        BEEF_BELL = " ",
+
+		-- YOT Catcoon
+		KITCOONDEN =
+		{
+			GENERIC = " ",
+            BURNT = " ",
+			PLAYING_HIDEANDSEEK = " ",
+			PLAYING_HIDEANDSEEK_TIME_ALMOST_UP = " ",
+		},
+
+		KITCOONDEN_KIT = " ",
+
+		TICOON =
+		{
+			GENERIC = " ",
+			ABANDONED = " ",
+			SUCCESS = " ",
+			LOST_TRACK = " ",
+			NEARBY = " ",
+			TRACKING = " ",
+			TRACKING_NOT_MINE = " ",
+			NOTHING_TO_TRACK = " ",
+			TARGET_TOO_FAR_AWAY = " ",
+		},
+
+		YOT_CATCOONSHRINE =
+        {
+            GENERIC = " ",
+            EMPTY = " ",
+            BURNT = " ",
+        },
+
+		KITCOON_FOREST = " ",
+		KITCOON_SAVANNA = " ",
+		KITCOON_MARSH = " ",
+		KITCOON_DECIDUOUS = " ",
+		KITCOON_GRASS = " ",
+		KITCOON_ROCKY = " ",
+		KITCOON_DESERT = " ",
+		KITCOON_MOON = " ",
+		KITCOON_YOT = " ",
+
+        -- Moon Storm
+        ALTERGUARDIAN_PHASE1 = {
+            GENERIC = " ",
+            DEAD = " ",
+        },
+        ALTERGUARDIAN_PHASE2 = {
+            GENERIC = " ",
+            DEAD = " ",
+        },
+        ALTERGUARDIAN_PHASE2SPIKE = " ",
+        ALTERGUARDIAN_PHASE3 = " ",
+        ALTERGUARDIAN_PHASE3TRAP = " ",
+        ALTERGUARDIAN_PHASE3DEADORB = " ",
+        ALTERGUARDIAN_PHASE3DEAD = " ",
+
+        ALTERGUARDIANHAT = " ",
+        ALTERGUARDIANHATSHARD = " ",
+
+        MOONSTORM_GLASS = {
+            GENERIC = " ",
+            INFUSED = " "
+        },
+
+        MOONSTORM_STATIC = " ",
+        MOONSTORM_STATIC_ITEM = " ",
+        MOONSTORM_SPARK = " ",
+
+        BIRD_MUTANT = " ",
+        BIRD_MUTANT_SPITTER = " ",
+
+        WAGSTAFF_NPC = " ",
+        ALTERGUARDIAN_CONTAINED = " ",
+
+        WAGSTAFF_TOOL_1 = " ",
+        WAGSTAFF_TOOL_2 = " ",
+        WAGSTAFF_TOOL_3 = " ",
+        WAGSTAFF_TOOL_4 = " ",
+        WAGSTAFF_TOOL_5 = " ",
+
+        MOONSTORM_GOGGLESHAT = " ",
+
+        MOON_DEVICE = {
+            GENERIC = " ",
+            CONSTRUCTION1 = " ",
+            CONSTRUCTION2 = " ",
+        },
+
+		-- Wanda
+        POCKETWATCH_HEAL = {
+			GENERIC = " ",
+			RECHARGING = " ",
+		},
+
+        POCKETWATCH_REVIVE = {
+			GENERIC = " ",
+			RECHARGING = " ",
+		},
+
+        POCKETWATCH_WARP = {
+			GENERIC = " ",
+			RECHARGING = " ",
+		},
+
+        POCKETWATCH_RECALL = {
+			GENERIC = " ",
+			RECHARGING = " ",
+--fallback to speech_wilson.lua 			UNMARKED = "only_used_by_wanda",
+--fallback to speech_wilson.lua 			MARKED_SAMESHARD = "only_used_by_wanda",
+--fallback to speech_wilson.lua 			MARKED_DIFFERENTSHARD = "only_used_by_wanda",
+		},
+
+        POCKETWATCH_PORTAL = {
+			GENERIC = " ",
+			RECHARGING = " ",
+--fallback to speech_wilson.lua 			UNMARKED = "only_used_by_wanda unmarked",
+--fallback to speech_wilson.lua 			MARKED_SAMESHARD = "only_used_by_wanda same shard",
+--fallback to speech_wilson.lua 			MARKED_DIFFERENTSHARD = "only_used_by_wanda other shard",
+		},
+
+        POCKETWATCH_WEAPON = {
+			GENERIC = " ",
+--fallback to speech_wilson.lua 			DEPLETED = "only_used_by_wanda",
+		},
+
+        POCKETWATCH_PARTS = " ",
+        POCKETWATCH_DISMANTLER = " ",
+
+        POCKETWATCH_PORTAL_ENTRANCE =
+		{
+			GENERIC = " ",
+			DIFFERENTSHARD = " ",
+		},
+        POCKETWATCH_PORTAL_EXIT = " ",
+
+        -- Waterlog
+        WATERTREE_PILLAR = " ",
+        OCEANTREE = " ",
+        OCEANTREENUT = " ",
+        WATERTREE_ROOT = " ",
+
+        OCEANTREE_PILLAR = " ",
+
+        OCEANVINE = " ",
+        FIG = " ",
+        FIG_COOKED = " ",
+
+        SPIDER_WATER = " ",
+        MUTATOR_WATER = " ",
+        OCEANVINE_COCOON = " ",
+        OCEANVINE_COCOON_BURNT = " ",
+
+        GRASSGATOR = " ",
+
+        TREEGROWTHSOLUTION = " ",
+
+        FIGATONI = " ",
+        FIGKABAB = " ",
+        KOALEFIG_TRUNK = " ",
+        FROGNEWTON = " ",
+
+        -- The Terrorarium
+        TERRARIUM = {
+            GENERIC = " ",
+            CRIMSON = " ",
+            ENABLED = " ",
+			WAITING_FOR_DARK = " ",
+			COOLDOWN = " ",
+			SPAWN_DISABLED = " ",
+        },
+
+        -- Wolfgang
+        MIGHTY_GYM =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+
+        DUMBBELL = " ",
+        DUMBBELL_GOLDEN = " ",
+		DUMBBELL_MARBLE = " ",
+        DUMBBELL_GEM = " ",
+        POTATOSACK = " ",
+
+
+        TERRARIUMCHEST =
+		{
+			GENERIC = " ",
+			BURNT = " ",
+			SHIMMER = " ",
+		},
+
+		EYEMASKHAT = " ",
+
+        EYEOFTERROR = " ",
+        EYEOFTERROR_MINI = " ",
+        EYEOFTERROR_MINI_GROUNDED = " ",
+
+        FROZENBANANADAIQUIRI = " ",
+        BUNNYSTEW = " ",
+        MILKYWHITES = " ",
+
+        CRITTER_EYEOFTERROR = " ",
+
+        SHIELDOFTERROR =" ",
+        TWINOFTERROR1 = " ",
+        TWINOFTERROR2 = " ",
+
+        -- Year of the Catcoon
+        CATTOY_MOUSE = " ",
+        KITCOON_NAMETAG = " ",
+
+		KITCOONDECOR1 =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+		KITCOONDECOR2 =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+
+		KITCOONDECOR1_KIT = " ",
+		KITCOONDECOR2_KIT = " ",
+
+        -- WX78
+        WX78MODULE_MAXHEALTH = " ",
+        WX78MODULE_MAXSANITY1 = " ",
+        WX78MODULE_MAXSANITY = " ",
+        WX78MODULE_MOVESPEED = " ",
+        WX78MODULE_MOVESPEED2 = " ",
+        WX78MODULE_HEAT = " ",
+        WX78MODULE_NIGHTVISION = " ",
+        WX78MODULE_COLD = " ",
+        WX78MODULE_TASER = " ",
+        WX78MODULE_LIGHT = " ",
+        WX78MODULE_MAXHUNGER1 = " ",
+        WX78MODULE_MAXHUNGER = " ",
+        WX78MODULE_MUSIC = " ",
+        WX78MODULE_BEE = " ",
+        WX78MODULE_MAXHEALTH2 = " ",
+
+        WX78_SCANNER =
+        {
+            GENERIC =" ",
+            HUNTING = " ",
+            SCANNING = " ",
+        },
+
+        WX78_SCANNER_ITEM = " ",
+        WX78_SCANNER_SUCCEEDED = " ",
+
+        WX78_MODULEREMOVER = " ",
+
+        SCANDATA = " ",
+
+		-- QOL 2022
+		JUSTEGGS = " ",
+		VEGGIEOMLET = " ",
+		TALLEGGS = " ",
+		BEEFALOFEED = " ",
+		BEEFALOTREAT = " ",
+
+        -- Pirates
+        BOAT_ROTATOR = " ",
+        BOAT_ROTATOR_KIT = " ",
+        BOAT_BUMPER_KELP = " ",
+        BOAT_BUMPER_KELP_KIT = " ",
+        BOAT_BUMPER_SHELL = " ",
+        BOAT_BUMPER_SHELL_KIT = " ",
+        BOAT_CANNON = {
+            GENERIC = " ",
+            AMMOLOADED = " ",
+            NOAMMO = " ",
+        },
+        BOAT_CANNON_KIT = " ",
+        CANNONBALL_ROCK_ITEM = " ",
+
+        OCEAN_TRAWLER = {
+            GENERIC = " ",
+            LOWERED = " ",
+            CAUGHT = " ",
+            ESCAPED = " ",
+            FIXED = " ",
+        },
+        OCEAN_TRAWLER_KIT = " ",
+
+        BOAT_MAGNET =
+        {
+            GENERIC = " ",
+            ACTIVATED = " ",
+        },
+        BOAT_MAGNET_KIT = " ",
+
+        BOAT_MAGNET_BEACON =
+        {
+            GENERIC = " ",
+            ACTIVATED = " ",
+        },
+        DOCK_KIT = " ",
+        DOCK_WOODPOSTS_ITEM = " ",
+
+        MONKEYHUT =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+        POWDER_MONKEY = " ",
+        PRIME_MATE = " ",
+		LIGHTCRAB = " ",
+        CUTLESS = " ",
+        CURSED_MONKEY_TOKEN = " ",
+        OAR_MONKEY = " ",
+        BANANABUSH = " ",
+        DUG_BANANABUSH = " ",
+        PALMCONETREE = " ",
+        PALMCONE_SEED = " ",
+        PALMCONE_SAPLING = " ",
+        PALMCONE_SCALE = " ",
+        MONKEYTAIL = " ",
+        DUG_MONKEYTAIL = " ",
+
+        MONKEY_MEDIUMHAT = " ",
+        MONKEY_SMALLHAT = " ",
+        POLLY_ROGERSHAT = " ",
+        POLLY_ROGERS = " ",
+
+        MONKEYISLAND_PORTAL = " ",
+        MONKEYISLAND_PORTAL_DEBRIS = " ",
+        MONKEYQUEEN = " ",
+        MONKEYPILLAR = " ",
+        PIRATE_FLAG_POLE = " ",
+
+        BLACKFLAG = " ",
+        PIRATE_STASH = " ",
+        STASH_MAP = " ",
+
+        BANANAJUICE = " ",
+
+        FENCE_ROTATOR = " ",
+
+        CHARLIE_STAGE_POST = " ",
+        CHARLIE_LECTURN = " ",
+
+        CHARLIE_HECKLER = " ",
+
+        PLAYBILL_THE_DOLL = " ",
+        STATUEHARP_HEDGESPAWNER = " ",
+        HEDGEHOUND = " ",
+        HEDGEHOUND_BUSH = " ",
+
+        MASK_DOLLHAT = " ",
+        MASK_DOLLBROKENHAT = " ",
+        MASK_DOLLREPAIREDHAT = " ",
+        MASK_BLACKSMITHHAT = " ",
+        MASK_MIRRORHAT = " ",
+        MASK_QUEENHAT = " ",
+        MASK_KINGHAT = " ",
+        MASK_TREEHAT = " ",
+        MASK_FOOLHAT = " ",
+
+        COSTUME_DOLL_BODY = " ",
+        COSTUME_QUEEN_BODY = " ",
+        COSTUME_KING_BODY = " ",
+        COSTUME_BLACKSMITH_BODY = " ",
+        COSTUME_MIRROR_BODY = " ",
+        COSTUME_TREE_BODY = " ",
+        COSTUME_FOOL_BODY = " ",
+
+        STAGEUSHER =
+        {
+            STANDING = " ",
+            SITTING = " ",
+        },
+        SEWING_MANNEQUIN =
+        {
+            GENERIC = " ",
+            BURNT = " ",
+        },
+
+		-- Waxwell
+		MAGICIAN_CHEST = " ",
+		TOPHAT_MAGICIAN = " ",
+    },
+
+    DESCRIBE_GENERIC = " ",
+    DESCRIBE_TOODARK = " ",
+    DESCRIBE_SMOLDERING = " ",
+
+    DESCRIBE_PLANTHAPPY = " ",
+    DESCRIBE_PLANTVERYSTRESSED = " ",
+    DESCRIBE_PLANTSTRESSED = " ",
+    DESCRIBE_PLANTSTRESSORKILLJOYS = " ",
+    DESCRIBE_PLANTSTRESSORFAMILY = " ",
+    DESCRIBE_PLANTSTRESSOROVERCROWDING = " ",
+    DESCRIBE_PLANTSTRESSORSEASON = " ",
+    DESCRIBE_PLANTSTRESSORMOISTURE = " ",
+    DESCRIBE_PLANTSTRESSORNUTRIENTS = " ",
+    DESCRIBE_PLANTSTRESSORHAPPINESS = " ",
+
+    EAT_FOOD =
+    {
+        TALLBIRDEGG_CRACKED = " ",
+		WINTERSFEASTFUEL = " ",
+    },
+}
